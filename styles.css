@@ -10,6 +10,14 @@ body {
     min-height: 100vh;
   }
   
+  #imagenseguneleccion img {
+    width: 300px; /* ajusta el valor según tus necesidades */
+    height: 300px; /* ajusta el valor según tus necesidades */
+    object-fit: contain; /* para mantener la relación de aspecto de las imágenes */
+    border: 1px solid #ddd; /* opcional: añade un borde */
+    margin: 5px; /* opcional: añade márgenes entre las imágenes */
+  }
+  
   .container {
     display: flex;
     flex-wrap: wrap;
