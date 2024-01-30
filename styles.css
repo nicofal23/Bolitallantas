@@ -87,4 +87,13 @@ body {
     color: #fff;
     cursor: pointer;
   }
-  
+  header {
+    width: 100%;
+  }
+
+  header div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }

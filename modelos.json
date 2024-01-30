@@ -2,6 +2,7 @@
     "vehiculos": [
         {
             "modelo": "RANGER 12/23",
+            "imagenmodelo":"./assets/img/ranger.png",
             "productos": [
                 {
                     "ITEM": 1,
@@ -119,6 +120,7 @@
         },
         {
             "modelo": "RANGER 23/",
+            "imagenmodelo":"./assets/img/ranger.png",
             "productos": [
                 {
                     "ITEM": 1,
@@ -379,6 +381,7 @@
         },
         {
             "modelo": "FOCUS 13/",
+            "imagenmodelo":"./assets/img/focus.png",
             "productos": [
               {
                 "ITEM": 1,
