@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+
   // Función para abrir el modal
   function abrirModal(imagenSrc) {
     modal.style.display = 'block';

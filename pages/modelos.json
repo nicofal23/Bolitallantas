@@ -226,7 +226,7 @@
                     "DESCRIPCION": "LLANTA DE ACERO 6.0 X 15\"",
                     "PRECIO + IVA": "$ 126,203.75",
                     "PRECIO CON IVA": "$ 152,706.54",
-                    "IMAGEN": "./assets/img/9s4z1007c.png"
+                    "IMAGEN": "https://i.ibb.co/myBW4Bm/9-S4-Z1007-C.png" 
                 },
                 {
                     "CODIGO": 221789,
@@ -445,7 +445,7 @@
                 "DESCRIPCION": "LLANTA ALEACION 16 FOCUS 09/13 5RAY",
                 "PRECIO + IVA": "$ 203,216.53",
                 "PRECIO CON IVA": "$ 245,892.00",
-                "IMAGEN": "./assets/img/9M551007BB.png"
+                "IMAGEN": "https://i.ibb.co/HzzXhtQ/9-M551007-BB.png" 
               },
               {
                 "CODIGO": 220976,
@@ -930,7 +930,7 @@
                 "IMAGEN": "./assets/img/BK2Z1007L.png"
               },
               {
-                "CODIGO": 336607,
+                "CODIGO": 3,
                 "NUMERO DE PIEZA": "KK2Z/1015/D/",
                 "DESCRIPCION": "LLANTA ACERO 16 TRANSIT 19/21 NEGRA",
                 "PRECIO + IVA": "$ 168,023.35",

@@ -3,36 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lista de Llantas</title>
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-  <link rel="stylesheet" href="styles.css">
+  <title>Inicio de Sesión</title>
+  <link rel="stylesheet" href="stylesusuario.css">
 </head>
 <body>
-  <header>
-    <div>
-        <h1>Ford Bolita llantas</h1>
-        <div id="imagenseguneleccion"></div>
-    </div>
-  </header>
-  <main>
-    <div class="filters">
-      <label for="modeloSelect">Filtrar por Modelo:</label>
-      <select id="modeloSelect"></select>
-    </div>
-    <div class="container" id="llantasContainer"></div>
-    <div id="myModal" class="modal" style="display: none;">
-        <span class="close" id="closeModal">&times;</span>
-        <img class="modal-content" id="modalImage">
-      </div>
-      
-  </main>
-  <footer>
-    <p>Bolita repuestos</p>
-  </footer>
-  <script src="script.js"></script>
+  <div class="login-container">
+    <form id="loginForm">
+      <h2>Iniciar Sesión</h2>
+      <label for="username">Usuario:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Iniciar Sesión</button>
+    </form>
+  </div>
+
+  <script src="usuario.js"></script>
 </body>
 </html>
-
-
-
 

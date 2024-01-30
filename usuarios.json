@@ -1,0 +1,13 @@
+{
+    "usuarios": [
+      {
+        "nombreUsuario": "nicolas",
+        "contraseña": "981990"
+      },
+      {
+        "nombreUsuario": "jorge",
+        "contraseña": "bolita11"
+      }
+    ]
+  }
+  
