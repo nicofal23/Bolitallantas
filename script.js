@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const buscador = document.getElementById('buscador');
   const numeroPiezaInput = document.getElementById('numeroPieza');
   const filtrarNumeroPiezaBtn = document.getElementById('filtrarNumeroPieza');
-  const imagenseguneleccion = document.getElementById("imagenseguneleccion");
+  const imagenseguneleccion = document.getElementById('imagenseguneleccion');
 
   // Cargar datos desde el archivo modelos.json
   fetch('modelos.json')
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       buscador.addEventListener('input', () => {
         const filtro = buscador.value.toLowerCase();
-        const vehiculosFiltrados = data.vehiculos.filter(item => 
+        const vehiculosFiltrados = data.vehiculos.filter(item =>
           item.productos.some(producto => producto.DESCRIPCION.toLowerCase().includes(filtro))
         );
         llenarTarjetas(vehiculosFiltrados);
@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       filtrarNumeroPiezaBtn.addEventListener('click', () => {
         const numeroPieza = numeroPiezaInput.value.toLowerCase();
-        const vehiculosFiltrados = data.vehiculos.filter(item => 
+        const vehiculosFiltrados = data.vehiculos.filter(item =>
           item.productos.some(producto => producto['NUMERO DE PIEZA'].toLowerCase().includes(numeroPieza))
         );
         llenarTarjetas(vehiculosFiltrados);
@@ -72,10 +72,17 @@ document.addEventListener('DOMContentLoaded', () => {
         const description = document.createElement('div');
         description.classList.add('card-description');
         description.innerHTML = `
-          <p>Número de pieza: ${producto["NUMERO DE PIEZA"]}</p>
+          <p>Modelo: ${vehiculo['modelo']}</p>
           <p>Precio + IVA: ${producto['PRECIO + IVA']}</p>
           <p>Precio con IVA: ${producto['PRECIO CON IVA']}</p>
         `;
+
+        const verButton = document.createElement('button');
+        verButton.textContent = 'Ver número de pieza';
+        verButton.addEventListener('click', () => mostrarNumeroDePiezaConContraseña(producto['NUMERO DE PIEZA']));
+
+        // Insertar el botón antes del párrafo que contiene el número de pieza
+        description.insertBefore(verButton, description.querySelector('p'));
 
         cardContent.appendChild(title);
         cardContent.appendChild(description);
@@ -88,50 +95,47 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Función para abrir el modal
-  function abrirModal(imagenSrc) {
-    const modal = document.getElementById('myModal');
-    const modalImage = document.getElementById('modalImage');
+  function mostrarNumeroDePiezaConContraseña(numeroDePieza) {
+    Swal.fire({
+      title: 'Ingrese las credenciales',
+      html:
+        '<input id="swal-username" class="swal2-input" placeholder="Usuario">' +
+        '<input type="password" id="swal-password" class="swal2-input" placeholder="Contraseña">',
+      focusConfirm: false,
+      preConfirm: () => {
+        const usuario = Swal.getPopup().querySelector('#swal-username').value;
+        const contraseña = Swal.getPopup().querySelector('#swal-password').value;
 
-    modal.style.display = 'block';
-    modalImage.src = imagenSrc;
+        // Verificar las credenciales
+        if (usuario === 'bolita' && contraseña === 'bolita11') {
+          // Mostrar el número de pieza
+          Swal.fire({
+            title: 'Número de pieza',
+            text: numeroDePieza,
+            icon: 'info',
+          });
+        } else {
+          // Mostrar un mensaje si las credenciales son incorrectas
+          Swal.fire({
+            title: 'Error',
+            text: 'Credenciales incorrectas. Acceso denegado.',
+            icon: 'error',
+          });
+        }
+      },
+    });
   }
 
-  // Evento clic en la imagen para abrir el modal
-  llantasContainer.addEventListener('click', (event) => {
-    if (event.target.tagName === 'IMG') {
-      abrirModal(event.target.src);
-    }
-  });
-
-  const closeModal = document.getElementById('closeModal');
-  closeModal.addEventListener('click', () => {
-    const modal = document.getElementById('myModal');
-    modal.style.display = 'none';
-  });
-
-  // Cierra el modal si se hace clic fuera de la imagen o del modal
-  window.addEventListener('click', (event) => {
-    const modal = document.getElementById('myModal');
-    if (event.target === modal) {
-      modal.style.display = 'none';
-    }
-  });
-
-  // Función para actualizar la imagen según el modelo seleccionado
   function actualizarImagenSegunSeleccion(modeloSeleccionado, vehiculos) {
     const imagenModelo = obtenerImagenModelo(modeloSeleccionado, vehiculos);
 
-    // Verifica si existe una imagen para el modelo seleccionado
     if (imagenModelo) {
       imagenseguneleccion.innerHTML = `<img src="${imagenModelo}" alt="${modeloSeleccionado}">`;
     } else {
-      // Si no hay imagen para el modelo seleccionado, limpia el contenedor
-      imagenseguneleccion.innerHTML = "";
+      imagenseguneleccion.innerHTML = '';
     }
   }
 
-  // Función para obtener la imagen del modelo
   function obtenerImagenModelo(modeloSeleccionado, vehiculos) {
     const vehiculoEncontrado = vehiculos.find(item => item.modelo === modeloSeleccionado);
     return vehiculoEncontrado ? vehiculoEncontrado.imagenmodelo : null;
