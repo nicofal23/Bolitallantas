@@ -67,7 +67,11 @@ function llenarTarjetas(vehiculos) {
 
       const description = document.createElement('div');
       description.classList.add('card-description');
-      description.textContent = `Precio + IVA: ${producto['PRECIO + IVA']}, Precio con IVA: ${producto['PRECIO CON IVA']}`;
+      description.innerHTML = `
+      <p>Número de pieza: ${producto["NUMERO DE PIEZA"]}</p>
+      <p>Precio + IVA: ${producto['PRECIO + IVA']}</p>
+      <p>Precio con IVA: ${producto['PRECIO CON IVA']}</p>
+    `;
 
       cardContent.appendChild(title);
       cardContent.appendChild(description);

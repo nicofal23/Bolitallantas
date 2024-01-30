@@ -1,938 +1,940 @@
 {
     "vehiculos": [
-      {
-        "modelo": "RANGER 12/23",
-        "productos": [
-          {
-            "ITEM": 1,
-            "NUMERO DE PIEZA": "DB3Z/1007/A/",
-            "DESCRIPCION": "LLANTA DE ACERO 7.0J X 16\"",
-            "PRECIO + IVA": "$ 147.509,01",
-            "PRECIO CON IVA": "$ 178.485,90",
-            "IMAGEN": "./assets/img/AB391007FA.png"
-          },
-          {
-            "ITEM": 2,
-            "NUMERO DE PIEZA": "AB39/1007/FA/",
-            "DESCRIPCION": "LLANTA DE ACERO 7.5J X 17\"",
-            "PRECIO + IVA": "$ 297.370,01",
-            "PRECIO CON IVA": "$ 359.817,71",
-            "IMAGEN": "./assets/img/AB391007FA.png"
-          },
-          {
-            "ITEM": 3,
-            "NUMERO DE PIEZA": "AB39/1007/KA/",
-            "DESCRIPCION": "LLANTA DE ALEAC.17 NUEVA RANGER 12/16",
-            "PRECIO + IVA": "$ 249.711,49",
-            "PRECIO CON IVA": "$ 302.150,90",
-            "IMAGEN": "./assets/img/AB391007KA.png"
-          },
-          {
-            "ITEM": 4,
-            "NUMERO DE PIEZA": "EB3C/1007/G3/A",
-            "DESCRIPCION": "LLANTA DE ALEAC.17 NUEVA RANGER 16/23 GRIS OSC",
-            "PRECIO + IVA": "$ 264.841,93",
-            "PRECIO CON IVA": "$ 320.458,74",
-            "IMAGEN": "./assets/img/EB3C1007G3A.png"
-          },
-          {
-            "ITEM": 5,
-            "NUMERO DE PIEZA": "EB3C/1007/D3/B",
-            "DESCRIPCION": "LLANTA ALEAC.16 RANGER 16/23",
-            "PRECIO + IVA": "$ 241.815,21",
-            "PRECIO CON IVA": "$ 292.596,40",
-            "IMAGEN": "./assets/img/eb3c1007d3b.png"
-          },
-          {
-            "ITEM": 6,
-            "NUMERO DE PIEZA": "AB39/1007/J2/A",
-            "DESCRIPCION": "LLANTA DE ALEAC.16 RANGER 12/16",
-            "PRECIO + IVA": "$ 205.804,77",
-            "PRECIO CON IVA": "$ 249.023,77",
-            "IMAGEN": "./assets/img/ab391007j2a.png"
-          },
-          {
-            "ITEM": 7,
-            "NUMERO DE PIEZA": "EB3C/1007/E1/A",
-            "DESCRIPCION": "LLANTA ALEAC.17 RANGER 16/19",
-            "PRECIO + IVA": "$ 536.092,73",
-            "PRECIO CON IVA": "$ 648.672,20",
-            "IMAGEN": "./assets/img/eb3c1007e1a.png"
-          },
-          {
-            "ITEM": 8,
-            "NUMERO DE PIEZA": "EB3C/1007/F3/B",
-            "DESCRIPCION": "LLANTA ALEAC.18 RANGER 16/23",
-            "PRECIO + IVA": "$ 269.736,43",
-            "PRECIO CON IVA": "$ 326.381,08",
-            "IMAGEN": "./assets/img/eb3c1007f3b"
-          },
-          {
-            "ITEM": 9,
-            "NUMERO DE PIEZA": "EB3C/1007/H1/A",
-            "DESCRIPCION": "LLANTA ALEAC.18 RANGER 16/23 ltd",
-            "PRECIO + IVA": "$ 400.917,59",
-            "PRECIO CON IVA": "$ 485.110,28",
-            "IMAGEN": "./assets/img/eb3c1007h1a"
-          },
-          {
-            "ITEM": 10,
-            "NUMERO DE PIEZA": "JB3Z/1007/AK/",
-            "DESCRIPCION": "LLANTA ALEAC.18 RANGER 18/23 NEGRA",
-            "PRECIO + IVA": "$ 437.476,32",
-            "PRECIO CON IVA": "$ 529.346,35",
-            "IMAGEN": "./assets/img/jb3z1007ak"
-          },
-          {
-            "ITEM": 11,
-            "NUMERO DE PIEZA": "JB3Z/1007/X/",
-            "DESCRIPCION": "LLANTA ALEAC.18 RANGER 19/23 LTD",
-            "PRECIO + IVA": "$ 437.476,32",
-            "PRECIO CON IVA": "$ 529.346,35",
-            "IMAGEN": "url_imagen_11.jpg"
-          },
-          {
-            "ITEM": 12,
-            "NUMERO DE PIEZA": "JB3Z/1007/T/",
-            "DESCRIPCION": "LLANTA ALEAC 18 RANGER 22/23 ESTILO 5",
-            "PRECIO + IVA": "$ 437.476,32",
-            "PRECIO CON IVA": "$ 529.346,35",
-            "IMAGEN": "url_imagen_12.jpg"
-          },
-          {
-            "ITEM": 13,
-            "NUMERO DE PIEZA": "JB3Z/1007/P/",
-            "DESCRIPCION": "LLANTA ALEAC.17 RANGER 19/23",
-            "PRECIO + IVA": "$ 358.818,58",
-            "PRECIO CON IVA": "$ 434.170,48",
-            "IMAGEN": "url_imagen_13.jpg"
-          },
-          {
-            "ITEM": 14,
-            "NUMERO DE PIEZA": "AB39/1007/EA",
-            "DESCRIPCION": "LLANTA ALEAC.18 RANGER 12/20",
-            "IMAGEN": "url_imagen_14.jpg",
-            "PRECIO + IVA": "CONSULTAR",
-            "PRECIO CON IVA": "CONSULTAR"
-          }
-        ]
-      },
-      {
-        "modelo": "RANGER 23/",
-        "productos": [
-          {
-            "ITEM": 1,
-            "NUMERO DE PIEZA": "N1WZ/1007/B/",
-            "DESCRIPCION": "LLANTA ALEAC.17 RANGER 23/",
-            "PRECIO + IVA": "$ 437.565,60",
-            "PRECIO CON IVA": "$ 529.454,38",
-            "IMAGEN": "url_imagen_15.jpg"
-          },
-          {
-            "ITEM": 2,
-            "NUMERO DE PIEZA": "N1WZ/1007/K/",
-            "DESCRIPCION": "LLANTA ALEAC.17 RANGER 23/ ESTILO 2",
-            "PRECIO + IVA": "$ 437.565,60",
-            "PRECIO CON IVA": "$ 529.454,38",
-            "IMAGEN": "url_imagen_16.jpg"
-          },
-          {
-            "ITEM": 3,
-            "NUMERO DE PIEZA": "N1WZ/1007/J/",
-            "DESCRIPCION": "LLANTA ALEAC.18 RANGER 23/",
-            "PRECIO + IVA": "$ 497.110,82",
-            "PRECIO CON IVA": "$ 601.504,09",
-            "IMAGEN": "url_imagen_17.jpg"
-          },
-          {
-            "ITEM": 4,
-            "NUMERO DE PIEZA": "N1WZ/1007/F/",
-            "DESCRIPCION": "LLANTA ALEAC.20 RANGER 23/",
-            "PRECIO + IVA": "$ 714.665,97",
-            "PRECIO CON IVA": "$ 864.745,82",
-            "IMAGEN": "url_imagen_18.jpg"
-          },
-          {
-            "ITEM": 5,
-            "NUMERO DE PIEZA": "DB3Z/1007/A/",
-            "DESCRIPCION": "LLANTA DE ACERO 7.0J X 16\"",
-            "PRECIO + IVA": "$ 147.509,01",
-            "PRECIO CON IVA": "$ 178.485,90",
-            "IMAGEN": "url_imagen_19.jpg"
-          },
-          {
-            "ITEM": 6,
-            "NUMERO DE PIEZA": "AB39/1007/FA/",
-            "DESCRIPCION": "LLANTA DE ACERO 7.5J X 17\"",
-            "PRECIO + IVA": "$ 297.370,01",
-            "PRECIO CON IVA": "$ 359.817,71",
-            "IMAGEN": "url_imagen_20.jpg"
-          }
-        ]
-      },
-      {
-        "modelo": "KA 2016/",
-        "productos": [
-          {
-            "ITEM": 1,
-            "NUMERO DE PIEZA": "H3BC/1015/BA/",
-            "DESCRIPCION": "LLANTA ACERO 5.5 X 14 FIE KA",
-            "PRECIO + IVA": "$ 72,413.39",
-            "PRECIO CON IVA": "$ 87,620.20",
-            "IMAGEN": "url_imagen_20.jpg"
-          },
-          {
-            "ITEM": 2,
-            "NUMERO DE PIEZA": "C1BZ/1007/A/",
-            "DESCRIPCION": "LLANTA ALEAC.15 FIESTA K KA 16/18",
-            "PRECIO + IVA": "$ 296,476.59",
-            "PRECIO CON IVA": "$ 358,736.67",
-            "IMAGEN": "url_imagen_20.jpg"
-          },
-          {
-            "ITEM": 3,
-            "NUMERO DE PIEZA": "J7BZ/1007/E/",
-            "DESCRIPCION": "LLANTA ALEAC.15 KA 18/ FREESTYLE",
-            "PRECIO + IVA": "$ 351,290.22",
-            "PRECIO CON IVA": "$ 425,061.17",
-            "IMAGEN": "url_imagen_20.jpg"
-          },
-          {
-            "ITEM": 4,
-            "NUMERO DE PIEZA": "J7BZ/1007/G/",
-            "DESCRIPCION": "LLANTA ALEAC.15 KA 18/",
-            "PRECIO + IVA": "$ 290,489.97",
-            "PRECIO CON IVA": "$ 351,492.86",
-            "IMAGEN": "url_imagen_20.jpg"
-          }
-        ]
-      },
-      {
-        "modelo": "FIESTA 10/",
-        "productos": [
-          {
-            "ITEM": 1,
-            "NUMERO DE PIEZA": "H3BC/1015/BA/",
-            "DESCRIPCION": "LLANTA DE ACERO 5,5 X 14 - (PINTADA NEGRA)",
-            "PRECIO + IVA": "$ 72,413.39",
-            "PRECIO CON IVA": "$ 87,620.20",
-            "IMAGEN": "url_imagen_1.jpg"
-          },
-          {
-            "ITEM": 2,
-            "NUMERO DE PIEZA": "9S4Z/1007/C/",
-            "DESCRIPCION": "LLANTA DE ACERO 6.0 X 15\"",
-            "PRECIO + IVA": "$ 126,203.75",
-            "PRECIO CON IVA": "$ 152,706.54",
-            "IMAGEN": "url_imagen_2.jpg"
-          },
-          {
-            "ITEM": 3,
-            "NUMERO DE PIEZA": "CE8Z/1007/B/",
-            "DESCRIPCION": "LLANTA DE ALEACION TIPO PREMIUM PAINTED 16 X6,5 2010 / 2013",
-            "PRECIO + IVA": "$ 527,294.12",
-            "PRECIO CON IVA": "$ 638,025.89",
-            "IMAGEN": "url_imagen_3.jpg"
-          },
-          {
-            "ITEM": 4,
-            "NUMERO DE PIEZA": "C1BZ/1007/A/",
-            "DESCRIPCION": "LLANTA ALEAC.15 FIESTA K KA 16/18",
-            "PRECIO + IVA": "$ 296,476.59",
-            "PRECIO CON IVA": "$ 358,736.67",
-            "IMAGEN": "url_imagen_4.jpg"
-          },
-          {
-            "ITEM": 5,
-            "NUMERO DE PIEZA": "C1BC/1007/CD/",
-            "DESCRIPCION": "LLANTA ALEAC.16 FIESTA 10/13 K",
-            "PRECIO + IVA": "$ 325,659.90",
-            "PRECIO CON IVA": "$ 394,048.48",
-            "IMAGEN": "url_imagen_5.jpg"
-          },
-          {
-            "ITEM": 6,
-            "NUMERO DE PIEZA": "C1BC/1007/B1/A",
-            "DESCRIPCION": "LLANTA ALEAC.15 FIESTA 17/19 5RAY DOBLES",
-            "PRECIO + IVA": "$ 384,894.72",
-            "PRECIO CON IVA": "$ 465,722.61",
-            "IMAGEN": "url_imagen_6.jpg"
-          },
-          {
-            "ITEM": 7,
-            "NUMERO DE PIEZA": "C1BZ/1007/AD/",
-            "DESCRIPCION": "LLANTA ALEAC.15 FIESTA 18/19",
-            "PRECIO + IVA": "$ 384,894.72",
-            "PRECIO CON IVA": "$ 465,722.61",
-            "IMAGEN": "url_imagen_7.jpg"
-          },
-          {
-            "ITEM": 8,
-            "NUMERO DE PIEZA": "C1BC/1007/R1/A",
-            "DESCRIPCION": "LLANTA ALEAC.16 FIESTA 17/19",
-            "PRECIO + IVA": "$ 340,503.48",
-            "PRECIO CON IVA": "$ 412,009.21",
-            "IMAGEN": "url_imagen_8.jpg"
-          }
-        ]
-      },
-      {
-        "modelo": "ECOSPORT 12/",
-        "productos": [
-          {
-            "ITEM": 1,
-            "NUMERO DE PIEZA": "GN15/1015/A1/D",
-            "DESCRIPCION": "LLANTA DE ACERO 6.5 X 15\"",
-            "PRECIO + IVA": "$ 103,394.17",
-            "PRECIO CON IVA": "$ 125,106.95",
-            "IMAGEN": "url_imagen_1.jpg"
-          },
-          {
-            "ITEM": 2,
-            "NUMERO DE PIEZA": "CN15/1007/BA/",
-            "DESCRIPCION": "LLANTA DE ACERO 15 ECO 13/ SE",
-            "PRECIO + IVA": "$ 186,185.87",
-            "PRECIO CON IVA": "$ 225,284.90",
-            "IMAGEN": "url_imagen_2.jpg"
-          },
-          {
-            "ITEM": 3,
-            "NUMERO DE PIEZA": "AY11/1007/BE/",
-            "DESCRIPCION": "LLANTA ALEACION 15 ECOSPORT 13/17",
-            "PRECIO + IVA": "$ 403,093.32",
-            "PRECIO CON IVA": "$ 487,742.92",
-            "IMAGEN": "url_imagen_3.jpg"
-          },
-          {
-            "ITEM": 4,
-            "NUMERO DE PIEZA": "CN15/1007/D1/B",
-            "DESCRIPCION": "LLANTA ALEACION 16 ECOSPORT 12/",
-            "PRECIO + IVA": "$ 382,635.74",
-            "PRECIO CON IVA": "$ 462,989.25",
-            "IMAGEN": "url_imagen_4.jpg"
-          },
-          {
-            "ITEM": 5,
-            "NUMERO DE PIEZA": "CN15/1007/C2/B",
-            "DESCRIPCION": "LLANTA ALEACION 16 ECOSPORT 12/ TTN",
-            "PRECIO + IVA": "$ 358,893.57",
-            "PRECIO CON IVA": "$ 434,261.22",
-            "IMAGEN": "url_imagen_5.jpg"
-          },
-          {
-            "ITEM": 6,
-            "NUMERO DE PIEZA": "GN15/1007/A1/B",
-            "DESCRIPCION": "LLANTA ALEACION 15 ECOSPORT 17/",
-            "PRECIO + IVA": "$ 258,597.28",
-            "PRECIO CON IVA": "$ 312,902.71",
-            "IMAGEN": "url_imagen_6.jpg"
-          },
-          {
-            "ITEM": 7,
-            "NUMERO DE PIEZA": "GN1Z/1007/E/",
-            "DESCRIPCION": "LLANTA ALEACION 16 ECOSPORT 17/ FREESTYLE",
-            "PRECIO + IVA": "$ 374,191.98",
-            "PRECIO CON IVA": "$ 452,772.30",
-            "IMAGEN": "url_imagen_7.jpg"
-          },
-          {
-            "ITEM": 8,
-            "NUMERO DE PIEZA": "GN15/1007/B1/B",
-            "DESCRIPCION": "LLANTA ALEACION 16 ECOSPORT 17/ GRIS FREESTYLE",
-            "PRECIO + IVA": "$ 370,080.14",
-            "PRECIO CON IVA": "$ 447,796.97",
-            "IMAGEN": "url_imagen_8.jpg"
-          },
-          {
-            "ITEM": 9,
-            "NUMERO DE PIEZA": "GN15/1007/F1/B",
-            "DESCRIPCION": "LLANTA ALEACION 17 ECOSPORT 17/ TTN",
-            "PRECIO + IVA": "$ 439,921.69",
-            "PRECIO CON IVA": "$ 532,305.24",
-            "IMAGEN": "url_imagen_9.jpg"
-          },
-          {
-            "ITEM": 10,
-            "NUMERO DE PIEZA": "JN1Z/1007/A/",
-            "DESCRIPCION": "LLANTAS ALEACION 17 ECOSPORT 17/GRAFITO STORN",
-            "PRECIO + IVA": "$ 401,936.67",
-            "PRECIO CON IVA": "$ 486,343.37",
-            "IMAGEN": "url_imagen_10.jpg"
-          },
-          {
-            "ITEM": 11,
-            "NUMERO DE PIEZA": "GN1Z/1007/F/",
-            "DESCRIPCION": "LLANTA ALEACION 16 ECOSPORT 22/",
-            "PRECIO + IVA": "$ 374,185.60",
-            "PRECIO CON IVA": "$ 452,764.58",
-            "IMAGEN": "url_imagen_11.jpg"
-          },
-          {
-            "ITEM": 12,
-            "NUMERO DE PIEZA": "GN15/1007/F1/B",
-            "DESCRIPCION": "LLANTA ALEACION 17 ECOSPORT 21/",
-            "PRECIO + IVA": "$ 439,921.69",
-            "PRECIO CON IVA": "$ 532,305.24",
-            "IMAGEN": "url_imagen_12.jpg"
-          }
-        ]
-      },
-      {
-        "modelo": "FOCUS 13/",
-        "productos": [
-          {
-            "ITEM": 1,
-            "NUMERO DE PIEZA": "CV6Z/1007/D/",
-            "DESCRIPCION": "LLANTA ALEAC.16 FOCUS 13/15",
-            "PRECIO + IVA": "$ 313,296.34",
-            "PRECIO CON IVA": "$ 379,088.57",
-            "IMAGEN": "url_imagen_1.jpg"
-          },
-          {
-            "ITEM": 2,
-            "NUMERO DE PIEZA": "CV6Z/1007/J/",
-            "DESCRIPCION": "LLANTA ALEAC.17 FOCUS 13/15 NEGRA",
-            "PRECIO + IVA": "$ 348,160.42",
-            "PRECIO CON IVA": "$ 421,274.11",
-            "IMAGEN": "url_imagen_2.jpg"
-          },
-          {
-            "ITEM": 3,
-            "NUMERO DE PIEZA": "HM5J/1007/A1/A",
-            "DESCRIPCION": "LLANTA ALEAC.17 FOCUS 15/19 PLATEADA",
-            "PRECIO + IVA": "$ 296,015.16",
-            "PRECIO CON IVA": "$ 358,178.34",
-            "IMAGEN": "url_imagen_3.jpg"
-          },
-          {
-            "ITEM": 4,
-            "NUMERO DE PIEZA": "FM5Z/1007/A/",
-            "DESCRIPCION": "LLANTA ALEAC.17 FOCUS 15/19 NEGRA",
-            "PRECIO + IVA": "$ 355,218.27",
-            "PRECIO CON IVA": "$ 429,814.11",
-            "IMAGEN": "url_imagen_4.jpg"
-          },
-          {
-            "ITEM": 5,
-            "NUMERO DE PIEZA": "F1EJ/1007/B7/A",
-            "DESCRIPCION": "LLANTA ALEAC.17 FOCUS 15/19 MULTIRAY",
-            "PRECIO + IVA": "$ 231,497.27",
-            "PRECIO CON IVA": "$ 280,111.70",
-            "IMAGEN": "url_imagen_5.jpg"
-          },
-          {
-            "ITEM": 6,
-            "NUMERO DE PIEZA": "F1EC/1007/C7/A",
-            "DESCRIPCION": "LLANTA ALEAC.17 FOCUS 15/19 MULTIRAY TTN",
-            "PRECIO + IVA": "$ 242,028.17",
-            "PRECIO CON IVA": "$ 292,854.09",
-            "IMAGEN": "url_imagen_6.jpg"
-          },
-          {
-            "ITEM": 7,
-            "NUMERO DE PIEZA": "F1EZ/1007/A/",
-            "DESCRIPCION": "LLANTA ALEAC.16 FOCUS 15/19 2X5 RAYOS",
-            "PRECIO + IVA": "$ 313,296.34",
-            "PRECIO CON IVA": "$ 379,088.57",
-            "IMAGEN": "url_imagen_7.jpg"
-          },
-          {
-            "ITEM": 8,
-            "NUMERO DE PIEZA": "9M55/1007/BB",
-            "DESCRIPCION": "LLANTA ALEACION 16 FOCUS 09/13 5RAY",
-            "PRECIO + IVA": "$ 203,216.53",
-            "PRECIO CON IVA": "$ 245,892.00",
-            "IMAGEN": "url_imagen_8.jpg"
-          },
-          {
-            "ITEM": 9,
-            "NUMERO DE PIEZA": "1719526",
-            "DESCRIPCION": "LLANTA ALE 18\"FOCUS 13/19",
-            "PRECIO + IVA": "$ 221,404.96",
-            "PRECIO CON IVA": "$ 267,900.00",
-            "IMAGEN": "url_imagen_9.jpg"
-          },
-          {
-            "ITEM": 10,
-            "NUMERO DE PIEZA": "HM55/1007/AB",
-            "DESCRIPCION": "LLANTA ALEAC.17 FOCUS 13/19",
-            "PRECIO + IVA": "$ 226,324.79",
-            "PRECIO CON IVA": "$ 273,853.00",
-            "IMAGEN": "url_imagen_10.jpg"
-          }
-        ]
-      },
-      {
-        "modelo": "TERRITORY 20/",
-        "productos": [
-          {
-            "ITEM": 1,
-            "NUMERO DE PIEZA": "FS1/1100/AA/",
-            "DESCRIPCION": "LLANTA DE CHAPA - AUXILIO 2020 / 2023",
-            "PRECIO + IVA": "$ 98,106.21",
-            "PRECIO CON IVA": "$ 118,708.51",
-            "IMAGEN": "url_imagen_1.jpg"
-          },
-          {
-            "ITEM": 2,
-            "NUMERO DE PIEZA": "JS1/1007/AA/",
-            "DESCRIPCION": "LLANTA ALEACION 17 TERRITORY 20/22",
-            "PRECIO + IVA": "$ 177,080.07",
-            "PRECIO CON IVA": "$ 214,266.88",
-            "IMAGEN": "url_imagen_2.jpg"
-          },
-          {
-            "ITEM": 3,
-            "NUMERO DE PIEZA": "JS1/1007/BA/80",
-            "DESCRIPCION": "LLANTA ALEACION 18 TERRITORY 20/22",
-            "PRECIO + IVA": "$ 204,133.93",
-            "PRECIO CON IVA": "$ 247,002.06",
-            "IMAGEN": "url_imagen_3.jpg"
-          },
-          {
-            "ITEM": 4,
-            "NUMERO DE PIEZA": "NS1/1007/AB/",
-            "DESCRIPCION": "LLANTA ALEACION 18 TERRITORY 23/ SEL Y AMBI",
-            "PRECIO + IVA": "$ 377,796.25",
-            "PRECIO CON IVA": "$ 457,133.46",
-            "IMAGEN": "url_imagen_4.jpg"
-          },
-          {
-            "ITEM": 5,
-            "NUMERO DE PIEZA": "NS1/1007/CA/",
-            "DESCRIPCION": "LLANTA ALEACION 19 TERRITORY 23/ TITAMIUN",
-            "PRECIO + IVA": "$ 430,451.08",
-            "PRECIO CON IVA": "$ 520,845.81",
-            "IMAGEN": "url_imagen_5.jpg"
-          }
-        ]
-      },
-      {
-        "modelo": "BRONCO",
-        "productos": [
-          {
-            "ITEM": 1,
-            "NUMERO DE PIEZA": "M1PZ/1015/A/",
-            "DESCRIPCION": "RUEDA DE AUXILIO TIPO CONVENCIONAL 17\" VERSION WILDTRACK",
-            "PRECIO + IVA": "$ 192,708.31",
-            "PRECIO CON IVA": "$ 233,177.06",
-            "IMAGEN": "url_imagen_1.jpg"
-          },
-          {
-            "ITEM": 2,
-            "NUMERO DE PIEZA": "CJ5Z/1015/B/",
-            "DESCRIPCION": "RUEDA DE AUXILIO 17 XLT VERSION - CAR",
-            "PRECIO + IVA": "$ 207,627.66",
-            "PRECIO CON IVA": "$ 251,229.47",
-            "IMAGEN": "url_imagen_2.jpg"
-          },
-          {
-            "ITEM": 3,
-            "NUMERO DE PIEZA": "M1PZ/1007/F/",
-            "DESCRIPCION": "LLANTA ALEACION 18 BRONCO",
-            "PRECIO + IVA": "$ 436,598.94",
-            "PRECIO CON IVA": "$ 528,284.72",
-            "IMAGEN": "url_imagen_3.jpg"
-          },
-          {
-            "ITEM": 4,
-            "NUMERO DE PIEZA": "M1PZ/1007/C/",
-            "DESCRIPCION": "LLANTA ALEACION 17 BRONCO 21/",
-            "PRECIO + IVA": "$ 436,598.94",
-            "PRECIO CON IVA": "$ 528,284.72",
-            "IMAGEN": "url_imagen_4.jpg"
-          }
-        ]
-      },
-      {
-        "modelo": "RANGER RAPTOR",
-        "productos": [
-          {
-            "ITEM": 1,
-            "NUMERO DE PIEZA": "JB3Z/1007/H/",
-            "DESCRIPCION": "LLANTA ALEACION 17 RANGER RAPTOR 19/22",
-            "PRECIO + IVA": "$ 448,361.07",
-            "PRECIO CON IVA": "$ 542,516.89",
-            "IMAGEN": "url_imagen_1.jpg"
-          },
-          {
-            "ITEM": 2,
-            "NUMERO DE PIEZA": "N1WZ/1007/C/",
-            "DESCRIPCION": "LLANTA ALEACION 17 RANGER RAPTOR 23/",
-            "PRECIO + IVA": "$ 598,958.89",
-            "PRECIO CON IVA": "$ 724,740.26",
-            "IMAGEN": "url_imagen_2.jpg"
-          },
-          {
-            "ITEM": 3,
-            "NUMERO DE PIEZA": "N1WZ/1007/H/",
-            "DESCRIPCION": "LLANTA LLANTA ALEACION 17 RANGER RAPTOR 23/BEADLOCK",
-            "PRECIO + IVA": "$ 657,057.74",
-            "PRECIO CON IVA": "$ 795,039.87",
-            "IMAGEN": "url_imagen_3.jpg"
-          },
-          {
-            "ITEM": 4,
-            "NUMERO DE PIEZA": "HL3Z/1021/B/",
-            "DESCRIPCION": "ARO BEADLOCK LLANTA RANGER RAPTOR 23/",
-            "PRECIO + IVA": "$ 533,759.61",
-            "PRECIO CON IVA": "$ 645,849.13",
-            "IMAGEN": "url_imagen_4.jpg"
-          }
-        ]
-      },
-      {
-        "modelo": "F-150",
-        "productos": [
-          {
-            "ITEM": 1,
-            "NUMERO DE PIEZA": "2L7Z/1015/BA/",
-            "DESCRIPCION": "LLANTA DE ACERO 18 PULGADAS (AUXILIO) 2019 /",
-            "PRECIO + IVA": "$ 207,060.12",
-            "PRECIO CON IVA": "$ 250,542.75",
-            "IMAGEN": "url_imagen_1.jpg"
-          },
-          {
-            "ITEM": 2,
-            "NUMERO DE PIEZA": "JL3Z/1007/D/",
-            "DESCRIPCION": "LLANTA DE ALEAC.20 F150 LARIAT 19/20",
-            "PRECIO + IVA": "$ 730,528.60",
-            "PRECIO CON IVA": "$ 883,939.61",
-            "IMAGEN": "url_imagen_2.jpg"
-          },
-          {
-            "ITEM": 3,
-            "NUMERO DE PIEZA": "KL3Z/1007/D/",
-            "DESCRIPCION": "LLANTA ALEAC 17 F-150 RAPTOR 19/20",
-            "PRECIO + IVA": "$ 1,053,895.50",
-            "PRECIO CON IVA": "$ 1,275,213.56",
-            "IMAGEN": "url_imagen_3.jpg"
-          },
-          {
-            "ITEM": 4,
-            "NUMERO DE PIEZA": "KL3Z/1021/A/",
-            "DESCRIPCION": "ARO LLANTA 20 F150 RAPTOR 19/20",
-            "PRECIO + IVA": "$ 695,352.37",
-            "PRECIO CON IVA": "$ 841,376.37",
-            "IMAGEN": "url_imagen_4.jpg"
-          },
-          {
-            "ITEM": 5,
-            "NUMERO DE PIEZA": "ML3Z/1007/KA/",
-            "DESCRIPCION": "LLANTA ALEACION 20 F150 20/",
-            "PRECIO + IVA": "$ 756,232.61",
-            "PRECIO CON IVA": "$ 915,041.46",
-            "IMAGEN": "url_imagen_5.jpg"
-          },
-          {
-            "ITEM": 6,
-            "NUMERO DE PIEZA": "ML3Z/1007/S/",
-            "DESCRIPCION": "LLANTA ALEACION 17 F150 20/",
-            "PRECIO + IVA": "$ 1,095,553.07",
-            "PRECIO CON IVA": "$ 1,325,619.21",
-            "IMAGEN": "url_imagen_6.jpg"
-          },
-          {
-            "ITEM": 7,
-            "NUMERO DE PIEZA": "ML3Z/1021/B/",
-            "DESCRIPCION": "ARO RUEDA F150 20/ VERSION PERFOMANCE",
-            "PRECIO + IVA": "$ 554,956.04",
-            "PRECIO CON IVA": "$ 671,496.81",
-            "IMAGEN": "url_imagen_7.jpg"
-          }
-        ]
-      },
-      {
-        "modelo": "MUSTANG",
-        "productos": [
-          {
-            "ITEM": 1,
-            "NUMERO DE PIEZA": "FR3Z/1007/V/",
-            "DESCRIPCION": "LLANTA ALEAC.19 DELANTERA MUSTANG 15/19",
-            "PRECIO + IVA": "$ 711,034.95",
-            "PRECIO CON IVA": "$ 860,352.29",
-            "IMAGEN": "url_imagen_1.jpg"
-          },
-          {
-            "ITEM": 2,
-            "NUMERO DE PIEZA": "FR3Z/1007/W/",
-            "DESCRIPCION": "LLANTA ALEAC.19 TRASERA MUSTANG 15/19",
-            "PRECIO + IVA": "$ 856,179.06",
-            "PRECIO CON IVA": "$ 1,035,976.66",
-            "IMAGEN": "url_imagen_2.jpg"
-          },
-          {
-            "ITEM": 3,
-            "NUMERO DE PIEZA": "FR3Z/1007/Y/",
-            "DESCRIPCION": "LLANTA ALEAC.19 DELANTERA MUSTANG 17/",
-            "PRECIO + IVA": "$ 842,281.14",
-            "PRECIO CON IVA": "$ 1,019,160.18",
-            "IMAGEN": "url_imagen_3.jpg"
-          },
-          {
-            "ITEM": 4,
-            "NUMERO DE PIEZA": "FR3Z/1007/X/",
-            "DESCRIPCION": "LLANTA ALEAC.19 TRASERA MUSTANG 17/",
-            "PRECIO + IVA": "$ 857,343.33",
-            "PRECIO CON IVA": "$ 1,037,385.43",
-            "IMAGEN": "url_imagen_4.jpg"
-          },
-          {
-            "ITEM": 5,
-            "NUMERO DE PIEZA": "LR3Z/1007/D/",
-            "DESCRIPCION": "LLANTA ALEAC.19 DELANTERA MUSTANG 21/",
-            "PRECIO + IVA": "$ 672,406.61",
-            "PRECIO CON IVA": "$ 813,612.00",
-            "IMAGEN": "url_imagen_5.jpg"
-          },
-          {
-            "ITEM": 6,
-            "NUMERO DE PIEZA": "LR3Z/1007/E/",
-            "DESCRIPCION": "LLANTA ALEAC.19 TRASERA MUSTANG 21/",
-            "PRECIO + IVA": "$ 707,796.36",
-            "PRECIO CON IVA": "$ 856,433.60",
-            "IMAGEN": "url_imagen_6.jpg"
-          },
-          {
-            "ITEM": 7,
-            "NUMERO DE PIEZA": "LK9Z/1007/C/",
-            "DESCRIPCION": "LLANTA ALEAC.20 MUSTANG MACH-E 23/",
-            "PRECIO + IVA": "$ 925,517.31",
-            "PRECIO CON IVA": "$ 1,119,875.95",
-            "IMAGEN": "url_imagen_7.jpg"
-          }
-        ]
-      },
-      {
-        "modelo": "MONDEO",
-        "productos": [
-          {
-            "ITEM": 1,
-            "NUMERO DE PIEZA": "DS7Z/1007/K/",
-            "DESCRIPCION": "LLANTA ALEAC.18 MONDEO 15/16 TTN",
-            "PRECIO + IVA": "$ 569,906.88",
-            "PRECIO CON IVA": "$ 689,587.32",
-            "IMAGEN": "url_imagen_1.jpg"
-          },
-          {
-            "ITEM": 2,
-            "NUMERO DE PIEZA": "DS7Z/1007/L/",
-            "DESCRIPCION": "LLANTA ALEAC.18 MONDEO 15/16 SE",
-            "PRECIO + IVA": "$ 452,892.17",
-            "PRECIO CON IVA": "$ 547,999.53",
-            "IMAGEN": "url_imagen_2.jpg"
-          },
-          {
-            "ITEM": 3,
-            "NUMERO DE PIEZA": "DS7Z/1007/C/",
-            "DESCRIPCION": "LLANTA ALEAC.18 MONDEO 15/16 TTN MULTIRAYO",
-            "PRECIO + IVA": "$ 743,355.39",
-            "PRECIO CON IVA": "$ 899,460.02",
-            "IMAGEN": "url_imagen_3.jpg"
-          },
-          {
-            "ITEM": 4,
-            "NUMERO DE PIEZA": "HS7Z/1007/A/",
-            "DESCRIPCION": "LLANTA ALEAC.18 MONDEO 16/17 SEL",
-            "PRECIO + IVA": "$ 647,567.38",
-            "PRECIO CON IVA": "$ 783,556.53",
-            "IMAGEN": "url_imagen_4.jpg"
-          },
-          {
-            "ITEM": 5,
-            "NUMERO DE PIEZA": "JS7Z/1007/A/",
-            "DESCRIPCION": "LLANTA ALEAC.18 MONDEO 17/18",
-            "PRECIO + IVA": "$ 453,196.80",
-            "PRECIO CON IVA": "$ 548,368.13",
-            "IMAGEN": "url_imagen_5.jpg"
-          },
-          {
-            "ITEM": 6,
-            "NUMERO DE PIEZA": "HS7Z/1007/C/",
-            "DESCRIPCION": "LLANTA ALEAC.18 MONDEO 16/18 SEL TTN MULTIRAYO",
-            "PRECIO + IVA": "$ 489,460.30",
-            "PRECIO CON IVA": "$ 592,246.96",
-            "IMAGEN": "url_imagen_6.jpg"
-          },
-          {
-            "ITEM": 7,
-            "NUMERO DE PIEZA": "KS7Z/1007/C/",
-            "DESCRIPCION": "LLANTA ALEAC.18 MONDEO 18/20 SEL",
-            "PRECIO + IVA": "$ 647,567.38",
-            "PRECIO CON IVA": "$ 783,556.53",
-            "IMAGEN": "url_imagen_7.jpg"
-          },
-          {
-            "ITEM": 8,
-            "NUMERO DE PIEZA": "KS7Z/1007/D/",
-            "DESCRIPCION": "LLANTA ALEAC.18 MONDEO 18/20 TTN",
-            "PRECIO + IVA": "$ 589,253.72",
-            "PRECIO CON IVA": "$ 712,997.00",
-            "IMAGEN": "url_imagen_8.jpg"
-          },
-          {
-            "ITEM": 9,
-            "NUMERO DE PIEZA": "JX7Z/1007/P/",
-            "DESCRIPCION": "LLANTA ALEAC.18 MONDEO 19/21",
-            "PRECIO + IVA": "$ 526,699.39",
-            "PRECIO CON IVA": "$ 637,306.26",
-            "IMAGEN": "url_imagen_9.jpg"
-          },
-          {
-            "ITEM": 10,
-            "NUMERO DE PIEZA": "JX7Z/1007/G/",
-            "DESCRIPCION": "LLANTA ALEAC.17 MONDEO 20/21",
-            "PRECIO + IVA": "$ 349,120.74",
-            "PRECIO CON IVA": "$ 422,436.10",
-            "IMAGEN": "url_imagen_10.jpg"
-          }
-        ]
-      },
-      {
-        "modelo": "KUGA",
-        "productos": [
-          {
-            "ITEM": 1,
-            "NUMERO DE PIEZA": "CJ5Z/1007/Y/",
-            "DESCRIPCION": "LLANTA ALEAC.18 KUGA 13/16",
-            "PRECIO + IVA": "$ 837,786.24",
-            "PRECIO CON IVA": "$ 1,013,721.35",
-            "IMAGEN": "url_imagen_1.jpg"
-          },
-          {
-            "ITEM": 2,
-            "NUMERO DE PIEZA": "/1816698//",
-            "DESCRIPCION": "LLANTA ALEAC.17 KUGA 13/16",
-            "PRECIO + IVA": "$ 676,419.26",
-            "PRECIO CON IVA": "$ 818,467.30",
-            "IMAGEN": "url_imagen_2.jpg"
-          },
-          {
-            "ITEM": 3,
-            "NUMERO DE PIEZA": "GJ5Z/1007/V/",
-            "DESCRIPCION": "LLANTA ALEAC.17 KUGA 16/19",
-            "PRECIO + IVA": "$ 367,124.59",
-            "PRECIO CON IVA": "$ 444,220.75",
-            "IMAGEN": "url_imagen_3.jpg"
-          },
-          {
-            "ITEM": 4,
-            "NUMERO DE PIEZA": "GJ5Z/1007/W/",
-            "DESCRIPCION": "LLANTA ALEAC.18 KUGA 16/19",
-            "PRECIO + IVA": "$ 453,179.67",
-            "PRECIO CON IVA": "$ 548,347.40",
-            "IMAGEN": "url_imagen_4.jpg"
-          },
-          {
-            "ITEM": 5,
-            "NUMERO DE PIEZA": "LJ6Z/1007/K/",
-            "DESCRIPCION": "LLANTA ALEAC.17 KUGA 19/",
-            "PRECIO + IVA": "$ 369,841.02",
-            "PRECIO CON IVA": "$ 447,507.63",
-            "IMAGEN": "url_imagen_5.jpg"
-          },
-          {
-            "ITEM": 6,
-            "NUMERO DE PIEZA": "LJ6Z/1007/D/",
-            "DESCRIPCION": "LLANTA ALEAC.19 KUGA 20/",
-            "PRECIO + IVA": "$ 526,495.40",
-            "PRECIO CON IVA": "$ 637,059.43",
-            "IMAGEN": "url_imagen_6.jpg"
-          },
-          {
-            "ITEM": 7,
-            "NUMERO DE PIEZA": "LV4Z/1007/N/",
-            "DESCRIPCION": "LLANTA ALEAC.19 KUGA 21/",
-            "PRECIO + IVA": "$ 640,782.44",
-            "PRECIO CON IVA": "$ 775,346.75",
-            "IMAGEN": "url_imagen_7.jpg"
-          },
-          {
-            "ITEM": 8,
-            "NUMERO DE PIEZA": "LJ6Z/1007/B/",
-            "DESCRIPCION": "LLANTA ALEAC.18 KUGA 21/",
-            "PRECIO + IVA": "$ 406,216.05",
-            "PRECIO CON IVA": "$ 491,521.42",
-            "IMAGEN": "url_imagen_8.jpg"
-          },
-          {
-            "ITEM": 9,
-            "NUMERO DE PIEZA": "PJ6Z/1007/D/",
-            "DESCRIPCION": "LLANTA ALEAC.19 KUGA 22/",
-            "PRECIO + IVA": "$ 650,717.35",
-            "PRECIO CON IVA": "$ 787,367.99",
-            "IMAGEN": "url_imagen_9.jpg"
-          }
-        ]
-      },
-      {
-        "modelo": "MAVERICK",
-        "productos": [
-          {
-            "ITEM": 1,
-            "NUMERO DE PIEZA": "NZ6Z/1015/A/",
-            "DESCRIPCION": "LLANTA DE AUXILIO 17\"",
-            "PRECIO + IVA": "$ 212,334.96",
-            "PRECIO CON IVA": "$ 256,925.30",
-            "IMAGEN": "url_imagen_1.jpg"
-          },
-          {
-            "ITEM": 2,
-            "NUMERO DE PIEZA": "NZ6Z/1007/D/",
-            "DESCRIPCION": "LLANTA ALEAC.17 MAVERICK 21/",
-            "PRECIO + IVA": "$ 399,366.50",
-            "PRECIO CON IVA": "$ 483,233.47",
-            "IMAGEN": "url_imagen_2.jpg"
-          },
-          {
-            "ITEM": 3,
-            "NUMERO DE PIEZA": "NZ6Z/1007/B/",
-            "DESCRIPCION": "LLANTA ALEAC.17 MAVERICK 21/",
-            "PRECIO + IVA": "$ 562,790.07",
-            "PRECIO CON IVA": "$ 680,975.98",
-            "IMAGEN": "url_imagen_3.jpg"
-          },
-          {
-            "ITEM": 4,
-            "NUMERO DE PIEZA": "NZ6Z/1007/C/",
-            "DESCRIPCION": "LLANTA ALEAC.18 MAVERICK 22/",
-            "PRECIO + IVA": "$ 663,739.71",
-            "PRECIO CON IVA": "$ 803,125.05",
-            "IMAGEN": "url_imagen_4.jpg"
-          }
-        ]
-      },
-      {
-        "modelo": "TRANSIT",
-        "productos": [
-          {
-            "ITEM": 1,
-            "NUMERO DE PIEZA": "BK3Z/1007/B/",
-            "DESCRIPCION": "LLANTA ACERO 16 TRANSIT 14/23 SILVER",
-            "PRECIO + IVA": "$ 265,087.89",
-            "PRECIO CON IVA": "$ 320,756.35",
-            "IMAGEN": "url_imagen_1.jpg"
-          },
-          {
-            "ITEM": 2,
-            "NUMERO DE PIEZA": "BK2Z/1007/L/",
-            "DESCRIPCION": "LLANTA ACERO 16 TRANSIT 14/19",
-            "PRECIO + IVA": "$ 292,708.75",
-            "PRECIO CON IVA": "$ 354,177.59",
-            "IMAGEN": "url_imagen_2.jpg"
-          },
-          {
-            "ITEM": 3,
-            "NUMERO DE PIEZA": "KK2Z/1015/D/",
-            "DESCRIPCION": "LLANTA ACERO 16 TRANSIT 19/21 NEGRA",
-            "PRECIO + IVA": "$ 168,023.35",
-            "PRECIO CON IVA": "$ 203,308.25",
-            "IMAGEN": "url_imagen_3.jpg"
-          }
-        ]
-      }
+        {
+            "modelo": "RANGER 12/23",
+            "productos": [
+                {
+                    "ITEM": 1,
+                    "NUMERO DE PIEZA": "DB3Z/1007/A/",
+                    "DESCRIPCION": "LLANTA DE ACERO 7.0J X 16\"",
+                    "PRECIO + IVA": "$ 147.509,01",
+                    "PRECIO CON IVA": "$ 178.485,90",
+                    "IMAGEN": "./assets/img/AB391007FA.png"
+                },
+                {
+                    "ITEM": 2,
+                    "NUMERO DE PIEZA": "AB39/1007/FA/",
+                    "DESCRIPCION": "LLANTA DE ACERO 7.5J X 17\"",
+                    "PRECIO + IVA": "$ 297.370,01",
+                    "PRECIO CON IVA": "$ 359.817,71",
+                    "IMAGEN": "./assets/img/AB391007FA.png"
+                },
+                {
+                    "ITEM": 3,
+                    "NUMERO DE PIEZA": "AB39/1007/KA/",
+                    "DESCRIPCION": "LLANTA DE ALEAC.17 NUEVA RANGER 12/16",
+                    "PRECIO + IVA": "$ 249.711,49",
+                    "PRECIO CON IVA": "$ 302.150,90",
+                    "IMAGEN": "./assets/img/AB391007KA.png"
+                },
+                {
+                    "ITEM": 4,
+                    "NUMERO DE PIEZA": "EB3C/1007/G3/A",
+                    "DESCRIPCION": "LLANTA DE ALEAC.17 NUEVA RANGER 16/23 GRIS OSC",
+                    "PRECIO + IVA": "$ 264.841,93",
+                    "PRECIO CON IVA": "$ 320.458,74",
+                    "IMAGEN": "./assets/img/EB3C1007G3A.png"
+                },
+                {
+                    "ITEM": 5,
+                    "NUMERO DE PIEZA": "EB3C/1007/D3/B",
+                    "DESCRIPCION": "LLANTA ALEAC.16 RANGER 16/23",
+                    "PRECIO + IVA": "$ 241.815,21",
+                    "PRECIO CON IVA": "$ 292.596,40",
+                    "IMAGEN": "./assets/img/eb3c1007d3b.png"
+                },
+                {
+                    "ITEM": 6,
+                    "NUMERO DE PIEZA": "AB39/1007/J2/A",
+                    "DESCRIPCION": "LLANTA DE ALEAC.16 RANGER 12/16",
+                    "PRECIO + IVA": "$ 205.804,77",
+                    "PRECIO CON IVA": "$ 249.023,77",
+                    "IMAGEN": "./assets/img/ab391007j2a.png"
+                },
+                {
+                    "ITEM": 7,
+                    "NUMERO DE PIEZA": "EB3C/1007/E1/A",
+                    "DESCRIPCION": "LLANTA ALEAC.17 RANGER 16/19",
+                    "PRECIO + IVA": "$ 536.092,73",
+                    "PRECIO CON IVA": "$ 648.672,20",
+                    "IMAGEN": "./assets/img/eb3c1007e1a.png"
+                },
+                {
+                    "ITEM": 8,
+                    "NUMERO DE PIEZA": "EB3C/1007/F3/B",
+                    "DESCRIPCION": "LLANTA ALEAC.18 RANGER 16/23",
+                    "PRECIO + IVA": "$ 269.736,43",
+                    "PRECIO CON IVA": "$ 326.381,08",
+                    "IMAGEN": "./assets/img/eb3c1007f3b.png"
+                },
+                {
+                    "ITEM": 9,
+                    "NUMERO DE PIEZA": "EB3C/1007/H1/A",
+                    "DESCRIPCION": "LLANTA ALEAC.18 RANGER 16/23 ltd",
+                    "PRECIO + IVA": "$ 400.917,59",
+                    "PRECIO CON IVA": "$ 485.110,28",
+                    "IMAGEN": "./assets/img/eb3c1007h1a.png"
+                },
+                {
+                    "ITEM": 10,
+                    "NUMERO DE PIEZA": "JB3Z/1007/AK/",
+                    "DESCRIPCION": "LLANTA ALEAC.18 RANGER 18/23 NEGRA",
+                    "PRECIO + IVA": "$ 437.476,32",
+                    "PRECIO CON IVA": "$ 529.346,35",
+                    "IMAGEN": "./assets/img/jb3z1007ak.png"
+                },
+                {
+                    "ITEM": 11,
+                    "NUMERO DE PIEZA": "JB3Z/1007/X/",
+                    "DESCRIPCION": "LLANTA ALEAC.18 RANGER 19/23 LTD",
+                    "PRECIO + IVA": "$ 437.476,32",
+                    "PRECIO CON IVA": "$ 529.346,35",
+                    "IMAGEN": "./assets/img/jb3z1007x.png"
+                },
+                {
+                    "ITEM": 12,
+                    "NUMERO DE PIEZA": "JB3Z/1007/T/",
+                    "DESCRIPCION": "LLANTA ALEAC 18 RANGER 22/23 ESTILO 5",
+                    "PRECIO + IVA": "$ 437.476,32",
+                    "PRECIO CON IVA": "$ 529.346,35",
+                    "IMAGEN": "./assets/img/jb3z1007t.png"
+                },
+                {
+                    "ITEM": 13,
+                    "NUMERO DE PIEZA": "JB3Z/1007/P/",
+                    "DESCRIPCION": "LLANTA ALEAC.17 RANGER 19/23",
+                    "PRECIO + IVA": "$ 358.818,58",
+                    "PRECIO CON IVA": "$ 434.170,48",
+                    "IMAGEN": "./assets/img/jb3z1007p.png"
+                },
+                {
+                    "ITEM": 14,
+                    "NUMERO DE PIEZA": "AB39/1007/EA",
+                    "DESCRIPCION": "LLANTA ALEAC.18 RANGER 12/20",
+                    "IMAGEN": "./assets/img/ab391007ea.png",
+                    "PRECIO + IVA": "CONSULTAR",
+                    "PRECIO CON IVA": "CONSULTAR"
+                }
+            ]
+        },
+        {
+            "modelo": "RANGER 23/",
+            "productos": [
+                {
+                    "ITEM": 1,
+                    "NUMERO DE PIEZA": "N1WZ/1007/B/",
+                    "DESCRIPCION": "LLANTA ALEAC.17 RANGER 23/",
+                    "PRECIO + IVA": "$ 437.565,60",
+                    "PRECIO CON IVA": "$ 529.454,38",
+                    "IMAGEN": "./assets/img/n1wz1007b.png"
+                },
+                {
+                    "ITEM": 2,
+                    "NUMERO DE PIEZA": "N1WZ/1007/K/",
+                    "DESCRIPCION": "LLANTA ALEAC.17 RANGER 23/ ESTILO 2",
+                    "PRECIO + IVA": "$ 437.565,60",
+                    "PRECIO CON IVA": "$ 529.454,38",
+                    "IMAGEN": "./assets/img/n1wz1007k.png"
+                },
+                {
+                    "ITEM": 3,
+                    "NUMERO DE PIEZA": "N1WZ/1007/J/",
+                    "DESCRIPCION": "LLANTA ALEAC.18 RANGER 23/",
+                    "PRECIO + IVA": "$ 497.110,82",
+                    "PRECIO CON IVA": "$ 601.504,09",
+                    "IMAGEN": "./assets/img/n1wz1007j.png"
+                },
+                {
+                    "ITEM": 4,
+                    "NUMERO DE PIEZA": "N1WZ/1007/F/",
+                    "DESCRIPCION": "LLANTA ALEAC.20 RANGER 23/",
+                    "PRECIO + IVA": "$ 714.665,97",
+                    "PRECIO CON IVA": "$ 864.745,82",
+                    "IMAGEN": "./assets/img/n1wz1007f.png"
+                },
+                {
+                    "ITEM": 5,
+                    "NUMERO DE PIEZA": "DB3Z/1007/A/",
+                    "DESCRIPCION": "LLANTA DE ACERO 7.0J X 16\"",
+                    "PRECIO + IVA": "$ 147.509,01",
+                    "PRECIO CON IVA": "$ 178.485,90",
+                    "IMAGEN": "./assets/img/db3z1007a.png"
+                },
+                {
+                    "ITEM": 6,
+                    "NUMERO DE PIEZA": "AB39/1007/FA/",
+                    "DESCRIPCION": "LLANTA DE ACERO 7.5J X 17\"",
+                    "PRECIO + IVA": "$ 297.370,01",
+                    "PRECIO CON IVA": "$ 359.817,71",
+                    "IMAGEN": "./assets/img/ab391007fa.png"
+                }
+            ]
+        },
+        {
+            "modelo": "KA 2016/",
+            "productos": [
+                {
+                    "ITEM": 1,
+                    "NUMERO DE PIEZA": "H3BC/1015/BA/",
+                    "DESCRIPCION": "LLANTA ACERO 5.5 X 14 FIE KA",
+                    "PRECIO + IVA": "$ 72,413.39",
+                    "PRECIO CON IVA": "$ 87,620.20",
+                    "IMAGEN": "./assets/img/h3bc1015ba.png"
+                },
+                {
+                    "ITEM": 2,
+                    "NUMERO DE PIEZA": "C1BZ/1007/A/",
+                    "DESCRIPCION": "LLANTA ALEAC.15 FIESTA K KA 16/18",
+                    "PRECIO + IVA": "$ 296,476.59",
+                    "PRECIO CON IVA": "$ 358,736.67",
+                    "IMAGEN": "./assets/img/c1bz1007a.png"
+                },
+                {
+                    "ITEM": 3,
+                    "NUMERO DE PIEZA": "J7BZ/1007/E/",
+                    "DESCRIPCION": "LLANTA ALEAC.15 KA 18/ FREESTYLE",
+                    "PRECIO + IVA": "$ 351,290.22",
+                    "PRECIO CON IVA": "$ 425,061.17",
+                    "IMAGEN": "./assets/img/j7bz1007e.png"
+                },
+                {
+                    "ITEM": 4,
+                    "NUMERO DE PIEZA": "J7BZ/1007/G/",
+                    "DESCRIPCION": "LLANTA ALEAC.15 KA 18/",
+                    "PRECIO + IVA": "$ 290,489.97",
+                    "PRECIO CON IVA": "$ 351,492.86",
+                    "IMAGEN": "./assets/img/j7bz1007g.png"
+                }
+            ]
+        },
+        {
+            "modelo": "FIESTA 10/",
+            "productos": [
+                {
+                    "ITEM": 1,
+                    "NUMERO DE PIEZA": "H3BC/1015/BA/",
+                    "DESCRIPCION": "LLANTA DE ACERO 5,5 X 14 - (PINTADA NEGRA)",
+                    "PRECIO + IVA": "$ 72,413.39",
+                    "PRECIO CON IVA": "$ 87,620.20",
+                    "IMAGEN": "./assets/img/h3bc1015ba.png"
+                },
+                {
+                    "ITEM": 2,
+                    "NUMERO DE PIEZA": "9S4Z/1007/C/",
+                    "DESCRIPCION": "LLANTA DE ACERO 6.0 X 15\"",
+                    "PRECIO + IVA": "$ 126,203.75",
+                    "PRECIO CON IVA": "$ 152,706.54",
+                    "IMAGEN": "./assets/img/9s4z1007c.png"
+                },
+                {
+                    "ITEM": 3,
+                    "NUMERO DE PIEZA": "CE8Z/1007/B/",
+                    "DESCRIPCION": "LLANTA DE ALEACION TIPO PREMIUM PAINTED 16 X6,5 2010 / 2013",
+                    "PRECIO + IVA": "$ 527,294.12",
+                    "PRECIO CON IVA": "$ 638,025.89",
+                    "IMAGEN": "./assets/img/ce8z1007b.png"
+                },
+                {
+                    "ITEM": 4,
+                    "NUMERO DE PIEZA": "C1BZ/1007/A/",
+                    "DESCRIPCION": "LLANTA ALEAC.15 FIESTA K KA 16/18",
+                    "PRECIO + IVA": "$ 296,476.59",
+                    "PRECIO CON IVA": "$ 358,736.67",
+                    "IMAGEN": "./assets/img/c1bz1007a.png"
+                },
+                {
+                    "ITEM": 5,
+                    "NUMERO DE PIEZA": "C1BC/1007/CD/",
+                    "DESCRIPCION": "LLANTA ALEAC.16 FIESTA 10/13 K",
+                    "PRECIO + IVA": "$ 325,659.90",
+                    "PRECIO CON IVA": "$ 394,048.48",
+                    "IMAGEN": "./assets/img/c1bc1007cd.png"
+                },
+                {
+                    "ITEM": 6,
+                    "NUMERO DE PIEZA": "C1BC/1007/B1/A",
+                    "DESCRIPCION": "LLANTA ALEAC.15 FIESTA 17/19 5RAY DOBLES",
+                    "PRECIO + IVA": "$ 384,894.72",
+                    "PRECIO CON IVA": "$ 465,722.61",
+                    "IMAGEN": "./assets/img/c1bc1007b1a.png"
+                },
+                {
+                    "ITEM": 7,
+                    "NUMERO DE PIEZA": "C1BZ/1007/AD/",
+                    "DESCRIPCION": "LLANTA ALEAC.15 FIESTA 18/19",
+                    "PRECIO + IVA": "$ 384,894.72",
+                    "PRECIO CON IVA": "$ 465,722.61",
+                    "IMAGEN": "./assets/img/c1bz1007ad.png"
+                },
+                {
+                    "ITEM": 8,
+                    "NUMERO DE PIEZA": "C1BC/1007/R1/A",
+                    "DESCRIPCION": "LLANTA ALEAC.16 FIESTA 17/19",
+                    "PRECIO + IVA": "$ 340,503.48",
+                    "PRECIO CON IVA": "$ 412,009.21",
+                    "IMAGEN": "./assets/img/c1bc1007r1a.png"
+                }
+            ]
+        },
+        {
+            "modelo": "ECOSPORT 12/",
+            "productos": [
+                {
+                    "ITEM": 1,
+                    "NUMERO DE PIEZA": "GN15/1015/A1/D",
+                    "DESCRIPCION": "LLANTA DE ACERO 6.5 X 15\"",
+                    "PRECIO + IVA": "$ 103,394.17",
+                    "PRECIO CON IVA": "$ 125,106.95",
+                    "IMAGEN": "./assets/img/gn151015a1d.png"
+                },
+                {
+                    "ITEM": 2,
+                    "NUMERO DE PIEZA": "CN15/1007/BA/",
+                    "DESCRIPCION": "LLANTA DE ACERO 15 ECO 13/ SE",
+                    "PRECIO + IVA": "$ 186,185.87",
+                    "PRECIO CON IVA": "$ 225,284.90",
+                    "IMAGEN": "./assets/img/cn151007ba.png"
+                },
+                {
+                    "ITEM": 3,
+                    "NUMERO DE PIEZA": "AY11/1007/BE/",
+                    "DESCRIPCION": "LLANTA ALEACION 15 ECOSPORT 13/17",
+                    "PRECIO + IVA": "$ 403,093.32",
+                    "PRECIO CON IVA": "$ 487,742.92",
+                    "IMAGEN": "./assets/img/ay111007be.png"
+                },
+                {
+                    "ITEM": 4,
+                    "NUMERO DE PIEZA": "CN15/1007/D1/B",
+                    "DESCRIPCION": "LLANTA ALEACION 16 ECOSPORT 12/",
+                    "PRECIO + IVA": "$ 382,635.74",
+                    "PRECIO CON IVA": "$ 462,989.25",
+                    "IMAGEN": "./assets/img/cn151007d1b.png"
+                },
+                {
+                    "ITEM": 5,
+                    "NUMERO DE PIEZA": "CN15/1007/C2/B",
+                    "DESCRIPCION": "LLANTA ALEACION 16 ECOSPORT 12/ TTN",
+                    "PRECIO + IVA": "$ 358,893.57",
+                    "PRECIO CON IVA": "$ 434,261.22",
+                    "IMAGEN": "./assets/img/cn151007c2b.png"
+                },
+                {
+                    "ITEM": 6,
+                    "NUMERO DE PIEZA": "GN15/1007/A1/B",
+                    "DESCRIPCION": "LLANTA ALEACION 15 ECOSPORT 17/",
+                    "PRECIO + IVA": "$ 258,597.28",
+                    "PRECIO CON IVA": "$ 312,902.71",
+                    "IMAGEN": "./assets/img/gn151007a1b.png"
+                },
+                {
+                    "ITEM": 7,
+                    "NUMERO DE PIEZA": "GN1Z/1007/E/",
+                    "DESCRIPCION": "LLANTA ALEACION 16 ECOSPORT 17/ FREESTYLE",
+                    "PRECIO + IVA": "$ 374,191.98",
+                    "PRECIO CON IVA": "$ 452,772.30",
+                    "IMAGEN": "./assets/img/gn1z1007e.png"
+                },
+                {
+                    "ITEM": 8,
+                    "NUMERO DE PIEZA": "GN15/1007/B1/B",
+                    "DESCRIPCION": "LLANTA ALEACION 16 ECOSPORT 17/ GRIS FREESTYLE",
+                    "PRECIO + IVA": "$ 370,080.14",
+                    "PRECIO CON IVA": "$ 447,796.97",
+                    "IMAGEN": "./assets/img/gn151007b1b.png"
+                },
+                {
+                    "ITEM": 9,
+                    "NUMERO DE PIEZA": "GN15/1007/F1/B",
+                    "DESCRIPCION": "LLANTA ALEACION 17 ECOSPORT 17/ TTN",
+                    "PRECIO + IVA": "$ 439,921.69",
+                    "PRECIO CON IVA": "$ 532,305.24",
+                    "IMAGEN": "./assets/img/gn151007f1b.png"
+                },
+                {
+                    "ITEM": 10,
+                    "NUMERO DE PIEZA": "JN1Z/1007/A/",
+                    "DESCRIPCION": "LLANTAS ALEACION 17 ECOSPORT 17/GRAFITO STORN",
+                    "PRECIO + IVA": "$ 401,936.67",
+                    "PRECIO CON IVA": "$ 486,343.37",
+                    "IMAGEN": "./assets/img/jn1z1007a.png"
+                },
+                {
+                    "ITEM": 11,
+                    "NUMERO DE PIEZA": "GN1Z/1007/F/",
+                    "DESCRIPCION": "LLANTA ALEACION 16 ECOSPORT 22/",
+                    "PRECIO + IVA": "$ 374,185.60",
+                    "PRECIO CON IVA": "$ 452,764.58",
+                    "IMAGEN": "./assets/img/gn1z1007f.png"
+                },
+                {
+                    "ITEM": 12,
+                    "NUMERO DE PIEZA": "GN15/1007/F1/B",
+                    "DESCRIPCION": "LLANTA ALEACION 17 ECOSPORT 21/",
+                    "PRECIO + IVA": "$ 439,921.69",
+                    "PRECIO CON IVA": "$ 532,305.24",
+                    "IMAGEN": "./assets/img/gn151007f1b.png"
+                }
+            ]
+        },
+        {
+            "modelo": "FOCUS 13/",
+            "productos": [
+              {
+                "ITEM": 1,
+                "NUMERO DE PIEZA": "CV6Z/1007/D/",
+                "DESCRIPCION": "LLANTA ALEAC.16 FOCUS 13/15",
+                "PRECIO + IVA": "$ 313,296.34",
+                "PRECIO CON IVA": "$ 379,088.57",
+                "IMAGEN": "./assets/img/CV6Z1007D.png"
+              },
+              {
+                "ITEM": 2,
+                "NUMERO DE PIEZA": "CV6Z/1007/J/",
+                "DESCRIPCION": "LLANTA ALEAC.17 FOCUS 13/15 NEGRA",
+                "PRECIO + IVA": "$ 348,160.42",
+                "PRECIO CON IVA": "$ 421,274.11",
+                "IMAGEN": "./assets/img/CV6Z1007J.png"
+              },
+              {
+                "ITEM": 3,
+                "NUMERO DE PIEZA": "HM5J/1007/A1/A",
+                "DESCRIPCION": "LLANTA ALEAC.17 FOCUS 15/19 PLATEADA",
+                "PRECIO + IVA": "$ 296,015.16",
+                "PRECIO CON IVA": "$ 358,178.34",
+                "IMAGEN": "./assets/img/HM5J1007A1A.png"
+              },
+              {
+                "ITEM": 4,
+                "NUMERO DE PIEZA": "FM5Z/1007/A/",
+                "DESCRIPCION": "LLANTA ALEAC.17 FOCUS 15/19 NEGRA",
+                "PRECIO + IVA": "$ 355,218.27",
+                "PRECIO CON IVA": "$ 429,814.11",
+                "IMAGEN": "./assets/img/FM5Z1007A.png"
+              },
+              {
+                "ITEM": 5,
+                "NUMERO DE PIEZA": "F1EJ/1007/B7/A",
+                "DESCRIPCION": "LLANTA ALEAC.17 FOCUS 15/19 MULTIRAY",
+                "PRECIO + IVA": "$ 231,497.27",
+                "PRECIO CON IVA": "$ 280,111.70",
+                "IMAGEN": "./assets/img/F1EJ1007B7A.png"
+              },
+              {
+                "ITEM": 6,
+                "NUMERO DE PIEZA": "F1EC/1007/C7/A",
+                "DESCRIPCION": "LLANTA ALEAC.17 FOCUS 15/19 MULTIRAY TTN",
+                "PRECIO + IVA": "$ 242,028.17",
+                "PRECIO CON IVA": "$ 292,854.09",
+                "IMAGEN": "./assets/img/F1EC1007C7A.png"
+              },
+              {
+                "ITEM": 7,
+                "NUMERO DE PIEZA": "F1EZ/1007/A/",
+                "DESCRIPCION": "LLANTA ALEAC.16 FOCUS 15/19 2X5 RAYOS",
+                "PRECIO + IVA": "$ 313,296.34",
+                "PRECIO CON IVA": "$ 379,088.57",
+                "IMAGEN": "./assets/img/F1EZ1007A.png"
+              },
+              {
+                "ITEM": 8,
+                "NUMERO DE PIEZA": "9M55/1007/BB",
+                "DESCRIPCION": "LLANTA ALEACION 16 FOCUS 09/13 5RAY",
+                "PRECIO + IVA": "$ 203,216.53",
+                "PRECIO CON IVA": "$ 245,892.00",
+                "IMAGEN": "./assets/img/9M551007BB.png"
+              },
+              {
+                "ITEM": 9,
+                "NUMERO DE PIEZA": "1719526",
+                "DESCRIPCION": "LLANTA ALE 18\"FOCUS 13/19",
+                "PRECIO + IVA": "$ 221,404.96",
+                "PRECIO CON IVA": "$ 267,900.00",
+                "IMAGEN": "./assets/img/1719526.png"
+              },
+              {
+                "ITEM": 10,
+                "NUMERO DE PIEZA": "HM55/1007/AB",
+                "DESCRIPCION": "LLANTA ALEAC.17 FOCUS 13/19",
+                "PRECIO + IVA": "$ 226,324.79",
+                "PRECIO CON IVA": "$ 273,853.00",
+                "IMAGEN": "./assets/img/HM551007AB.png"
+              }
+            ]
+          },
+          {
+            "modelo": "TERRITORY 20/",
+            "productos": [
+              {
+                "ITEM": 1,
+                "NUMERO DE PIEZA": "FS1/1100/AA/",
+                "DESCRIPCION": "LLANTA DE CHAPA - AUXILIO 2020 / 2023",
+                "PRECIO + IVA": "$ 98,106.21",
+                "PRECIO CON IVA": "$ 118,708.51",
+                "IMAGEN": "./assets/img/FS11100AA.png"
+              },
+              {
+                "ITEM": 2,
+                "NUMERO DE PIEZA": "JS1/1007/AA/",
+                "DESCRIPCION": "LLANTA ALEACION 17 TERRITORY 20/22",
+                "PRECIO + IVA": "$ 177,080.07",
+                "PRECIO CON IVA": "$ 214,266.88",
+                "IMAGEN": "./assets/img/JS11007AA.png"
+              },
+              {
+                "ITEM": 3,
+                "NUMERO DE PIEZA": "JS1/1007/BA/80",
+                "DESCRIPCION": "LLANTA ALEACION 18 TERRITORY 20/22",
+                "PRECIO + IVA": "$ 204,133.93",
+                "PRECIO CON IVA": "$ 247,002.06",
+                "IMAGEN": "./assets/img/JS11007BA80.png"
+              },
+              {
+                "ITEM": 4,
+                "NUMERO DE PIEZA": "NS1/1007/AB/",
+                "DESCRIPCION": "LLANTA ALEACION 18 TERRITORY 23/ SEL Y AMBI",
+                "PRECIO + IVA": "$ 377,796.25",
+                "PRECIO CON IVA": "$ 457,133.46",
+                "IMAGEN": "./assets/img/NS11007AB.png"
+              },
+              {
+                "ITEM": 5,
+                "NUMERO DE PIEZA": "NS1/1007/CA/",
+                "DESCRIPCION": "LLANTA ALEACION 19 TERRITORY 23/ TITANIUM",
+                "PRECIO + IVA": "$ 430,451.08",
+                "PRECIO CON IVA": "$ 520,845.81",
+                "IMAGEN": "./assets/img/NS11007CA.png"
+              }
+            ]
+          },          
+          {
+            "modelo": "BRONCO",
+            "productos": [
+              {
+                "ITEM": 1,
+                "NUMERO DE PIEZA": "M1PZ/1015/A/",
+                "DESCRIPCION": "RUEDA DE AUXILIO TIPO CONVENCIONAL 17\" VERSION WILDTRACK",
+                "PRECIO + IVA": "$ 192,708.31",
+                "PRECIO CON IVA": "$ 233,177.06",
+                "IMAGEN": "./assets/img/M1PZ1015A.png"
+              },
+              {
+                "ITEM": 2,
+                "NUMERO DE PIEZA": "CJ5Z/1015/B/",
+                "DESCRIPCION": "RUEDA DE AUXILIO 17 XLT VERSION - CAR",
+                "PRECIO + IVA": "$ 207,627.66",
+                "PRECIO CON IVA": "$ 251,229.47",
+                "IMAGEN": "./assets/img/CJ5Z1015B.png"
+              },
+              {
+                "ITEM": 3,
+                "NUMERO DE PIEZA": "M1PZ/1007/F/",
+                "DESCRIPCION": "LLANTA ALEACION 18 BRONCO",
+                "PRECIO + IVA": "$ 436,598.94",
+                "PRECIO CON IVA": "$ 528,284.72",
+                "IMAGEN": "./assets/img/M1PZ1007F.png"
+              },
+              {
+                "ITEM": 4,
+                "NUMERO DE PIEZA": "M1PZ/1007/C/",
+                "DESCRIPCION": "LLANTA ALEACION 17 BRONCO 21/",
+                "PRECIO + IVA": "$ 436,598.94",
+                "PRECIO CON IVA": "$ 528,284.72",
+                "IMAGEN": "./assets/img/M1PZ1007C.png"
+              }
+            ]
+          },
+          
+          {
+            "modelo": "RANGER RAPTOR",
+            "productos": [
+              {
+                "ITEM": 1,
+                "NUMERO DE PIEZA": "JB3Z/1007/H/",
+                "DESCRIPCION": "LLANTA ALEACION 17 RANGER RAPTOR 19/22",
+                "PRECIO + IVA": "$ 448,361.07",
+                "PRECIO CON IVA": "$ 542,516.89",
+                "IMAGEN": "./assets/img/JB3Z1007H.png"
+              },
+              {
+                "ITEM": 2,
+                "NUMERO DE PIEZA": "N1WZ/1007/C/",
+                "DESCRIPCION": "LLANTA ALEACION 17 RANGER RAPTOR 23/",
+                "PRECIO + IVA": "$ 598,958.89",
+                "PRECIO CON IVA": "$ 724,740.26",
+                "IMAGEN": "./assets/img/N1WZ1007C.png"
+              },
+              {
+                "ITEM": 3,
+                "NUMERO DE PIEZA": "N1WZ/1007/H/",
+                "DESCRIPCION": "LLANTA LLANTA ALEACION 17 RANGER RAPTOR 23/BEADLOCK",
+                "PRECIO + IVA": "$ 657,057.74",
+                "PRECIO CON IVA": "$ 795,039.87",
+                "IMAGEN": "./assets/img/N1WZ1007H.png"
+              },
+              {
+                "ITEM": 4,
+                "NUMERO DE PIEZA": "HL3Z/1021/B/",
+                "DESCRIPCION": "ARO BEADLOCK LLANTA RANGER RAPTOR 23/",
+                "PRECIO + IVA": "$ 533,759.61",
+                "PRECIO CON IVA": "$ 645,849.13",
+                "IMAGEN": "./assets/img/HL3Z1021B.png"
+              }
+            ]
+          },
+          
+          {
+            "modelo": "F-150",
+            "productos": [
+              {
+                "ITEM": 1,
+                "NUMERO DE PIEZA": "2L7Z/1015/BA/",
+                "DESCRIPCION": "LLANTA DE ACERO 18 PULGADAS (AUXILIO) 2019 /",
+                "PRECIO + IVA": "$ 207,060.12",
+                "PRECIO CON IVA": "$ 250,542.75",
+                "IMAGEN": "./assets/img/2L7Z1015BA.png"
+              },
+              {
+                "ITEM": 2,
+                "NUMERO DE PIEZA": "JL3Z/1007/D/",
+                "DESCRIPCION": "LLANTA DE ALEAC.20 F150 LARIAT 19/20",
+                "PRECIO + IVA": "$ 730,528.60",
+                "PRECIO CON IVA": "$ 883,939.61",
+                "IMAGEN": "./assets/img/JL3Z1007D.png"
+              },
+              {
+                "ITEM": 3,
+                "NUMERO DE PIEZA": "KL3Z/1007/D/",
+                "DESCRIPCION": "LLANTA ALEAC 17 F-150 RAPTOR 19/20",
+                "PRECIO + IVA": "$ 1,053,895.50",
+                "PRECIO CON IVA": "$ 1,275,213.56",
+                "IMAGEN": "./assets/img/KL3Z1007D.png"
+              },
+              {
+                "ITEM": 4,
+                "NUMERO DE PIEZA": "KL3Z/1021/A/",
+                "DESCRIPCION": "ARO LLANTA 20 F150 RAPTOR 19/20",
+                "PRECIO + IVA": "$ 695,352.37",
+                "PRECIO CON IVA": "$ 841,376.37",
+                "IMAGEN": "./assets/img/KL3Z1021A.png"
+              },
+              {
+                "ITEM": 5,
+                "NUMERO DE PIEZA": "ML3Z/1007/KA/",
+                "DESCRIPCION": "LLANTA ALEACION 20 F150 20/",
+                "PRECIO + IVA": "$ 756,232.61",
+                "PRECIO CON IVA": "$ 915,041.46",
+                "IMAGEN": "./assets/img/ML3Z1007KA.png"
+              },
+              {
+                "ITEM": 6,
+                "NUMERO DE PIEZA": "ML3Z/1007/S/",
+                "DESCRIPCION": "LLANTA ALEACION 17 F150 20/",
+                "PRECIO + IVA": "$ 1,095,553.07",
+                "PRECIO CON IVA": "$ 1,325,619.21",
+                "IMAGEN": "./assets/img/ML3Z1007S.png"
+              },
+              {
+                "ITEM": 7,
+                "NUMERO DE PIEZA": "ML3Z/1021/B/",
+                "DESCRIPCION": "ARO RUEDA F150 20/ VERSION PERFOMANCE",
+                "PRECIO + IVA": "$ 554,956.04",
+                "PRECIO CON IVA": "$ 671,496.81",
+                "IMAGEN": "./assets/img/ML3Z1021B.png"
+              }
+            ]
+          },
+          
+          {
+            "modelo": "MUSTANG",
+            "productos": [
+              {
+                "ITEM": 1,
+                "NUMERO DE PIEZA": "FR3Z/1007/V/",
+                "DESCRIPCION": "LLANTA ALEAC.19 DELANTERA MUSTANG 15/19",
+                "PRECIO + IVA": "$ 711,034.95",
+                "PRECIO CON IVA": "$ 860,352.29",
+                "IMAGEN": "./assets/img/FR3Z1007V.png"
+              },
+              {
+                "ITEM": 2,
+                "NUMERO DE PIEZA": "FR3Z/1007/W/",
+                "DESCRIPCION": "LLANTA ALEAC.19 TRASERA MUSTANG 15/19",
+                "PRECIO + IVA": "$ 856,179.06",
+                "PRECIO CON IVA": "$ 1,035,976.66",
+                "IMAGEN": "./assets/img/FR3Z1007W.png"
+              },
+              {
+                "ITEM": 3,
+                "NUMERO DE PIEZA": "FR3Z/1007/Y/",
+                "DESCRIPCION": "LLANTA ALEAC.19 DELANTERA MUSTANG 17/",
+                "PRECIO + IVA": "$ 842,281.14",
+                "PRECIO CON IVA": "$ 1,019,160.18",
+                "IMAGEN": "./assets/img/FR3Z1007Y.png"
+              },
+              {
+                "ITEM": 4,
+                "NUMERO DE PIEZA": "FR3Z/1007/X/",
+                "DESCRIPCION": "LLANTA ALEAC.19 TRASERA MUSTANG 17/",
+                "PRECIO + IVA": "$ 857,343.33",
+                "PRECIO CON IVA": "$ 1,037,385.43",
+                "IMAGEN": "./assets/img/FR3Z1007X.png"
+              },
+              {
+                "ITEM": 5,
+                "NUMERO DE PIEZA": "LR3Z/1007/D/",
+                "DESCRIPCION": "LLANTA ALEAC.19 DELANTERA MUSTANG 21/",
+                "PRECIO + IVA": "$ 672,406.61",
+                "PRECIO CON IVA": "$ 813,612.00",
+                "IMAGEN": "./assets/img/LR3Z1007D.png"
+              },
+              {
+                "ITEM": 6,
+                "NUMERO DE PIEZA": "LR3Z/1007/E/",
+                "DESCRIPCION": "LLANTA ALEAC.19 TRASERA MUSTANG 21/",
+                "PRECIO + IVA": "$ 707,796.36",
+                "PRECIO CON IVA": "$ 856,433.60",
+                "IMAGEN": "./assets/img/LR3Z1007E.png"
+              },
+              {
+                "ITEM": 7,
+                "NUMERO DE PIEZA": "LK9Z/1007/C/",
+                "DESCRIPCION": "LLANTA ALEAC.20 MUSTANG MACH-E 23/",
+                "PRECIO + IVA": "$ 925,517.31",
+                "PRECIO CON IVA": "$ 1,119,875.95",
+                "IMAGEN": "./assets/img/LK9Z1007C.png"
+              }
+            ]
+          },
+          
+          {
+            "modelo": "MONDEO",
+            "productos": [
+              {
+                "ITEM": 1,
+                "NUMERO DE PIEZA": "DS7Z/1007/K/",
+                "DESCRIPCION": "LLANTA ALEAC.18 MONDEO 15/16 TTN",
+                "PRECIO + IVA": "$ 569,906.88",
+                "PRECIO CON IVA": "$ 689,587.32",
+                "IMAGEN": "./assets/img/DS7Z1007K.png"
+              },
+              {
+                "ITEM": 2,
+                "NUMERO DE PIEZA": "DS7Z/1007/L/",
+                "DESCRIPCION": "LLANTA ALEAC.18 MONDEO 15/16 SE",
+                "PRECIO + IVA": "$ 452,892.17",
+                "PRECIO CON IVA": "$ 547,999.53",
+                "IMAGEN": "./assets/img/DS7Z1007L.png"
+              },
+              {
+                "ITEM": 3,
+                "NUMERO DE PIEZA": "DS7Z/1007/C/",
+                "DESCRIPCION": "LLANTA ALEAC.18 MONDEO 15/16 TTN MULTIRAYO",
+                "PRECIO + IVA": "$ 743,355.39",
+                "PRECIO CON IVA": "$ 899,460.02",
+                "IMAGEN": "./assets/img/DS7Z1007C.png"
+              },
+              {
+                "ITEM": 4,
+                "NUMERO DE PIEZA": "HS7Z/1007/A/",
+                "DESCRIPCION": "LLANTA ALEAC.18 MONDEO 16/17 SEL",
+                "PRECIO + IVA": "$ 647,567.38",
+                "PRECIO CON IVA": "$ 783,556.53",
+                "IMAGEN": "./assets/img/HS7Z1007A.png"
+              },
+              {
+                "ITEM": 5,
+                "NUMERO DE PIEZA": "JS7Z/1007/A/",
+                "DESCRIPCION": "LLANTA ALEAC.18 MONDEO 17/18",
+                "PRECIO + IVA": "$ 453,196.80",
+                "PRECIO CON IVA": "$ 548,368.13",
+                "IMAGEN": "./assets/img/JS7Z1007A.png"
+              },
+              {
+                "ITEM": 6,
+                "NUMERO DE PIEZA": "HS7Z/1007/C/",
+                "DESCRIPCION": "LLANTA ALEAC.18 MONDEO 16/18 SEL TTN MULTIRAYO",
+                "PRECIO + IVA": "$ 489,460.30",
+                "PRECIO CON IVA": "$ 592,246.96",
+                "IMAGEN": "./assets/img/HS7Z1007C.png"
+              },
+              {
+                "ITEM": 7,
+                "NUMERO DE PIEZA": "KS7Z/1007/C/",
+                "DESCRIPCION": "LLANTA ALEAC.18 MONDEO 18/20 SEL",
+                "PRECIO + IVA": "$ 647,567.38",
+                "PRECIO CON IVA": "$ 783,556.53",
+                "IMAGEN": "./assets/img/KS7Z1007C.png"
+              },
+              {
+                "ITEM": 8,
+                "NUMERO DE PIEZA": "KS7Z/1007/D/",
+                "DESCRIPCION": "LLANTA ALEAC.18 MONDEO 18/20 TTN",
+                "PRECIO + IVA": "$ 589,253.72",
+                "PRECIO CON IVA": "$ 712,997.00",
+                "IMAGEN": "./assets/img/KS7Z1007D.png"
+              },
+              {
+                "ITEM": 9,
+                "NUMERO DE PIEZA": "JX7Z/1007/P/",
+                "DESCRIPCION": "LLANTA ALEAC.18 MONDEO 19/21",
+                "PRECIO + IVA": "$ 526,699.39",
+                "PRECIO CON IVA": "$ 637,306.26",
+                "IMAGEN": "./assets/img/JX7Z1007P.png"
+              },
+              {
+                "ITEM": 10,
+                "NUMERO DE PIEZA": "JX7Z/1007/G/",
+                "DESCRIPCION": "LLANTA ALEAC.17 MONDEO 20/21",
+                "PRECIO + IVA": "$ 349,120.74",
+                "PRECIO CON IVA": "$ 422,436.10",
+                "IMAGEN": "./assets/img/JX7Z1007G.png"
+              }
+            ]
+          },
+          {
+            "modelo": "KUGA",
+            "productos": [
+              {
+                "ITEM": 1,
+                "NUMERO DE PIEZA": "CJ5Z/1007/Y/",
+                "DESCRIPCION": "LLANTA ALEAC.18 KUGA 13/16",
+                "PRECIO + IVA": "$ 837,786.24",
+                "PRECIO CON IVA": "$ 1,013,721.35",
+                "IMAGEN": "./assets/img/CJ5Z1007Y.png"
+              },
+              {
+                "ITEM": 2,
+                "NUMERO DE PIEZA": "/1816698//",
+                "DESCRIPCION": "LLANTA ALEAC.17 KUGA 13/16",
+                "PRECIO + IVA": "$ 676,419.26",
+                "PRECIO CON IVA": "$ 818,467.30",
+                "IMAGEN": "./assets/img/1816698.png"
+              },
+              {
+                "ITEM": 3,
+                "NUMERO DE PIEZA": "GJ5Z/1007/V/",
+                "DESCRIPCION": "LLANTA ALEAC.17 KUGA 16/19",
+                "PRECIO + IVA": "$ 367,124.59",
+                "PRECIO CON IVA": "$ 444,220.75",
+                "IMAGEN": "./assets/img/GJ5Z1007V.png"
+              },
+              {
+                "ITEM": 4,
+                "NUMERO DE PIEZA": "GJ5Z/1007/W/",
+                "DESCRIPCION": "LLANTA ALEAC.18 KUGA 16/19",
+                "PRECIO + IVA": "$ 453,179.67",
+                "PRECIO CON IVA": "$ 548,347.40",
+                "IMAGEN": "./assets/img/GJ5Z1007W.png"
+              },
+              {
+                "ITEM": 5,
+                "NUMERO DE PIEZA": "LJ6Z/1007/K/",
+                "DESCRIPCION": "LLANTA ALEAC.17 KUGA 19/",
+                "PRECIO + IVA": "$ 369,841.02",
+                "PRECIO CON IVA": "$ 447,507.63",
+                "IMAGEN": "./assets/img/LJ6Z1007K.png"
+              },
+              {
+                "ITEM": 6,
+                "NUMERO DE PIEZA": "LJ6Z/1007/D/",
+                "DESCRIPCION": "LLANTA ALEAC.19 KUGA 20/",
+                "PRECIO + IVA": "$ 526,495.40",
+                "PRECIO CON IVA": "$ 637,059.43",
+                "IMAGEN": "./assets/img/LJ6Z1007D.png"
+              },
+              {
+                "ITEM": 7,
+                "NUMERO DE PIEZA": "LV4Z/1007/N/",
+                "DESCRIPCION": "LLANTA ALEAC.19 KUGA 21/",
+                "PRECIO + IVA": "$ 640,782.44",
+                "PRECIO CON IVA": "$ 775,346.75",
+                "IMAGEN": "./assets/img/LV4Z1007N.png"
+              },
+              {
+                "ITEM": 8,
+                "NUMERO DE PIEZA": "LJ6Z/1007/B/",
+                "DESCRIPCION": "LLANTA ALEAC.18 KUGA 21/",
+                "PRECIO + IVA": "$ 406,216.05",
+                "PRECIO CON IVA": "$ 491,521.42",
+                "IMAGEN": "./assets/img/LJ6Z1007B.png"
+              },
+              {
+                "ITEM": 9,
+                "NUMERO DE PIEZA": "PJ6Z/1007/D/",
+                "DESCRIPCION": "LLANTA ALEAC.19 KUGA 22/",
+                "PRECIO + IVA": "$ 650,717.35",
+                "PRECIO CON IVA": "$ 787,367.99",
+                "IMAGEN": "./assets/img/PJ6Z1007D.png"
+              }
+            ]
+          },
+          {
+            "modelo": "MAVERICK",
+            "productos": [
+              {
+                "ITEM": 1,
+                "NUMERO DE PIEZA": "NZ6Z/1015/A/",
+                "DESCRIPCION": "LLANTA DE AUXILIO 17\"",
+                "PRECIO + IVA": "$ 212,334.96",
+                "PRECIO CON IVA": "$ 256,925.30",
+                "IMAGEN": "./assets/img/NZ6Z1015A.png"
+              },
+              {
+                "ITEM": 2,
+                "NUMERO DE PIEZA": "NZ6Z/1007/D/",
+                "DESCRIPCION": "LLANTA ALEAC.17 MAVERICK 21/",
+                "PRECIO + IVA": "$ 399,366.50",
+                "PRECIO CON IVA": "$ 483,233.47",
+                "IMAGEN": "./assets/img/NZ6Z1007D.png"
+              },
+              {
+                "ITEM": 3,
+                "NUMERO DE PIEZA": "NZ6Z/1007/B/",
+                "DESCRIPCION": "LLANTA ALEAC.17 MAVERICK 21/",
+                "PRECIO + IVA": "$ 562,790.07",
+                "PRECIO CON IVA": "$ 680,975.98",
+                "IMAGEN": "./assets/img/NZ6Z1007B.png"
+              },
+              {
+                "ITEM": 4,
+                "NUMERO DE PIEZA": "NZ6Z/1007/C/",
+                "DESCRIPCION": "LLANTA ALEAC.18 MAVERICK 22/",
+                "PRECIO + IVA": "$ 663,739.71",
+                "PRECIO CON IVA": "$ 803,125.05",
+                "IMAGEN": "./assets/img/NZ6Z1007C.png"
+              }
+            ]
+          },
+          
+          {
+            "modelo": "TRANSIT",
+            "productos": [
+              {
+                "ITEM": 1,
+                "NUMERO DE PIEZA": "BK3Z/1007/B/",
+                "DESCRIPCION": "LLANTA ACERO 16 TRANSIT 14/23 SILVER",
+                "PRECIO + IVA": "$ 265,087.89",
+                "PRECIO CON IVA": "$ 320,756.35",
+                "IMAGEN": "./assets/img/BK3Z1007B.png"
+              },
+              {
+                "ITEM": 2,
+                "NUMERO DE PIEZA": "BK2Z/1007/L/",
+                "DESCRIPCION": "LLANTA ACERO 16 TRANSIT 14/19",
+                "PRECIO + IVA": "$ 292,708.75",
+                "PRECIO CON IVA": "$ 354,177.59",
+                "IMAGEN": "./assets/img/BK2Z1007L.png"
+              },
+              {
+                "ITEM": 3,
+                "NUMERO DE PIEZA": "KK2Z/1015/D/",
+                "DESCRIPCION": "LLANTA ACERO 16 TRANSIT 19/21 NEGRA",
+                "PRECIO + IVA": "$ 168,023.35",
+                "PRECIO CON IVA": "$ 203,308.25",
+                "IMAGEN": "./assets/img/KK2Z1015D.png"
+              }
+            ]
+          }          
     ]
-  }
-
-  
-  
+}
