@@ -5,13 +5,46 @@ document.addEventListener('DOMContentLoaded', () => {
   const numeroPiezaInput = document.getElementById('numeroPieza');
   const filtrarNumeroPiezaBtn = document.getElementById('filtrarNumeroPieza');
   const imagenseguneleccion = document.getElementById('imagenseguneleccion');
+  const modal = document.getElementById('myModal');
+  const modalImage = document.getElementById('modalImage');
+  const closeModal = document.getElementById('closeModal');
+
+
+  // Evento clic en la imagen para abrir el modal
+  llantasContainer.addEventListener('click', (event) => {
+    if (event.target.tagName === 'IMG') {
+      abrirModal(event.target.src);
+    }
+  });
+
+  closeModal.addEventListener('click', () => {
+    cerrarModal();
+  });
+
+  // Cierra el modal si se hace clic fuera de la imagen o del modal
+  window.addEventListener('click', (event) => {
+    if (event.target === modal) {
+      cerrarModal();
+    }
+  });
+
+  // Función para abrir el modal
+  function abrirModal(imagenSrc) {
+    modal.style.display = 'block';
+    modalImage.src = imagenSrc;
+  }
+
+  // Función para cerrar el modal
+  function cerrarModal() {
+    modal.style.display = 'none';
+  }
 
   // Cargar datos desde el archivo modelos.json
   fetch('modelos.json')
     .then(response => response.json())
     .then(data => {
       // Llenar el select con modelos únicos
-      const modelosUnicos = [...new Set(data.vehiculos.map(item => item.modelo))];
+      const modelosUnicos = [...new Set(data.vehiculos.map(CODIGO => CODIGO.modelo))];
       modelosUnicos.forEach(modelo => {
         const option = document.createElement('option');
         option.value = modelo;
@@ -25,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
       // Agregar eventos para filtrar al cambiar el modelo o escribir en el buscador
       modeloSelect.addEventListener('change', () => {
         const modeloSeleccionado = modeloSelect.value;
-        const vehiculoSeleccionado = data.vehiculos.find(item => item.modelo === modeloSeleccionado);
+        const vehiculoSeleccionado = data.vehiculos.find(CODIGO => CODIGO.modelo === modeloSeleccionado);
         llenarTarjetas([vehiculoSeleccionado]);
 
         // Actualizar la imagen según el modelo seleccionado
@@ -34,16 +67,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
       buscador.addEventListener('input', () => {
         const filtro = buscador.value.toLowerCase();
-        const vehiculosFiltrados = data.vehiculos.filter(item =>
-          item.productos.some(producto => producto.DESCRIPCION.toLowerCase().includes(filtro))
+        const vehiculosFiltrados = data.vehiculos.filter(CODIGO =>
+          CODIGO.productos.some(producto => producto.DESCRIPCION.toLowerCase().includes(filtro))
         );
         llenarTarjetas(vehiculosFiltrados);
       });
 
       filtrarNumeroPiezaBtn.addEventListener('click', () => {
         const numeroPieza = numeroPiezaInput.value.toLowerCase();
-        const vehiculosFiltrados = data.vehiculos.filter(item =>
-          item.productos.some(producto => producto['NUMERO DE PIEZA'].toLowerCase().includes(numeroPieza))
+        const vehiculosFiltrados = data.vehiculos.filter(CODIGO =>
+          CODIGO.productos.some(producto => producto['NUMERO DE PIEZA'].toLowerCase().includes(numeroPieza))
         );
         llenarTarjetas(vehiculosFiltrados);
       });
@@ -73,6 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
         description.classList.add('card-description');
         description.innerHTML = `
           <p>Modelo: ${vehiculo['modelo']}</p>
+          <p>Numero de pieza : ${producto["CODIGO"]}</p>
           <p>Precio + IVA: ${producto['PRECIO + IVA']}</p>
           <p>Precio con IVA: ${producto['PRECIO CON IVA']}</p>
         `;
@@ -137,7 +171,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function obtenerImagenModelo(modeloSeleccionado, vehiculos) {
-    const vehiculoEncontrado = vehiculos.find(item => item.modelo === modeloSeleccionado);
+    const vehiculoEncontrado = vehiculos.find(CODIGO => CODIGO.modelo === modeloSeleccionado);
     return vehiculoEncontrado ? vehiculoEncontrado.imagenmodelo : null;
   }
 });
