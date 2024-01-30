@@ -79,13 +79,19 @@ function llenarTarjetas(vehiculos) {
     });
   });
 }
+// Función para abrir el modal
+function abrirModal(imagenSrc) {
+  const modal = document.getElementById('myModal');
+  const modalImage = document.getElementById('modalImage');
+
+  modal.style.display = 'block';
+  modalImage.src = imagenSrc;
+}
+
+// Evento clic en la imagen para abrir el modal
 llantasContainer.addEventListener('click', (event) => {
   if (event.target.tagName === 'IMG') {
-    const modal = document.getElementById('myModal');
-    const modalImage = document.getElementById('modalImage');
-
-    modal.style.display = 'block';
-    modalImage.src = event.target.src;
+    abrirModal(event.target.src);
   }
 });
 
@@ -93,6 +99,14 @@ const closeModal = document.getElementById('closeModal');
 closeModal.addEventListener('click', () => {
   const modal = document.getElementById('myModal');
   modal.style.display = 'none';
+});
+
+// Cierra el modal si se hace clic fuera de la imagen o del modal
+window.addEventListener('click', (event) => {
+  const modal = document.getElementById('myModal');
+  if (event.target === modal) {
+    modal.style.display = 'none';
+  }
 });
 });
   
