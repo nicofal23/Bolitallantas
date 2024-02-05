@@ -111,7 +111,6 @@ document.addEventListener('DOMContentLoaded', () => {
           <p>Precio + IVA: ${producto['PRECIO + IVA']}</p>
           <p>Precio con IVA: ${producto['PRECIO CON IVA']}</p>
         `;
-
         const verButton = document.createElement('button');
         verButton.textContent = 'Ver número de pieza';
         verButton.addEventListener('click', () => mostrarNumeroDePiezaConContraseña(producto['NUMERO DE PIEZA']));
