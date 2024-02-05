@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const modalImage = document.getElementById('modalImage');
   const closeModal = document.getElementById('closeModal');
 
-
   // Evento clic en la imagen para abrir el modal
   llantasContainer.addEventListener('click', (event) => {
     if (event.target.tagName === 'IMG') {
@@ -27,7 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
       cerrarModal();
     }
   });
-
 
   // Función para abrir el modal
   function abrirModal(imagenSrc) {
@@ -76,9 +74,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
       filtrarNumeroPiezaBtn.addEventListener('click', () => {
         const numeroPieza = numeroPiezaInput.value.toLowerCase();
-        const vehiculosFiltrados = data.vehiculos.filter(CODIGO =>
-          CODIGO.productos.some(producto => producto['NUMERO DE PIEZA'].toLowerCase().includes(numeroPieza))
-        );
+        const vehiculosFiltrados = data.vehiculos.filter((CODIGO) => {
+          return CODIGO.productos.some((producto) => {
+            return producto['NUMERO DE PIEZA'].toLowerCase().includes(numeroPieza) || producto['CODIGO'].toLowerCase().includes(numeroPieza);
+          });
+        });
         llenarTarjetas(vehiculosFiltrados);
       });
     })
@@ -175,4 +175,62 @@ document.addEventListener('DOMContentLoaded', () => {
     const vehiculoEncontrado = vehiculos.find(CODIGO => CODIGO.modelo === modeloSeleccionado);
     return vehiculoEncontrado ? vehiculoEncontrado.imagenmodelo : null;
   }
-});
+
+
+
+
+  let data; // Variable para almacenar los datos cargados desde el archivo JSON
+
+  const searchButton = document.querySelector('.searchButton');
+
+    // Agregar un listener al botón de búsqueda
+    searchButton.addEventListener('click', function () {
+      buscarCodigo();
+    });
+  })
+  .catch(error => console.error('Error al cargar el archivo JSON:', error));
+
+// Definir la función buscarCodigo
+function buscarCodigo() {
+  const codigoInput = document.querySelector('.searchTerm').value;
+
+  // Verificar si data está definido y es un array
+  if (data && Array.isArray(data.vehiculos)) {
+    const producto = data.vehiculos.flatMap(vehiculo => vehiculo.productos).find(item => item.CODIGO == codigoInput);
+
+    if (producto) {
+      // Configurar las opciones de SweetAlert con estilo y posición
+      const swalOptions = {
+        title: `Foto: ${producto.IMAGEN}`,
+        text: `Codigo: ${producto.CODIGO}\nPrecio Compañia: $${precioCon50PorCiento.toFixed(2)}\nPrecio publico: $${precioConDescuento.toFixed(2)}`,
+        icon: 'success',
+        position: 'absolute',
+        customClass: {
+          popup: 'custom-swal-popup',
+          title: 'custom-swal-title',
+          content: 'custom-swal-content',
+        },
+        buttonsStyling: false,
+      };
+
+      swal(swalOptions);
+    } else {
+      swal({
+        title: 'Error',
+        text: 'Código no encontrado',
+        icon: 'error',
+        position: 'absolute',
+        customClass: {
+          popup: 'custom-swal-popup',
+          title: 'custom-swal-title',
+          content: 'custom-swal-content',
+        },
+        buttonsStyling: false,
+      });
+    }
+  } else {
+    console.error('Los datos no se han cargado correctamente.');
+  }
+}
+  
+  
