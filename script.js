@@ -168,11 +168,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function actualizarImagenSegunSeleccion(modeloSeleccionado, vehiculos) {
     const imagenModelo = obtenerImagenModelo(modeloSeleccionado, vehiculos);
-
+    const imagenSegunSeleccion = document.getElementById("imagenseguneleccion");
+  
     if (imagenModelo) {
-      imagenseguneleccion.innerHTML = `<img src="${imagenModelo}" alt="${modeloSeleccionado}">`;
+      imagenSegunSeleccion.innerHTML = `<img src="${imagenModelo}" alt="${modeloSeleccionado}">`;
+      // Eliminar clase de animación para reiniciar la animación
+      imagenSegunSeleccion.classList.remove("rotate-scale-up");
+      // Forzar reflow para que la clase eliminada se aplique correctamente
+      void imagenSegunSeleccion.offsetWidth;
+      // Agregar nuevamente la clase de animación para iniciarla
+      imagenSegunSeleccion.classList.add("rotate-scale-up");
     } else {
-      imagenseguneleccion.innerHTML = '';
+      imagenSegunSeleccion.innerHTML = '';
     }
   }
 
