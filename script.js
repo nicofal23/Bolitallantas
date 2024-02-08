@@ -84,50 +84,56 @@ document.addEventListener('DOMContentLoaded', () => {
     })
     .catch(error => console.error('Error al cargar los datos:', error));
 
-  function llenarTarjetas(vehiculos) {
-    llantasContainer.innerHTML = '';
-
-    vehiculos.forEach(vehiculo => {
-      vehiculo.productos.forEach(producto => {
-        const card = document.createElement('div');
-        card.classList.add('card');
-
-        const image = document.createElement('img');
-        image.src = producto.IMAGEN;
-        image.alt = producto.DESCRIPCION;
-
-        const cardContent = document.createElement('div');
-        cardContent.classList.add('card-content');
-
-        const title = document.createElement('div');
-        title.classList.add('card-title');
-        title.textContent = producto.DESCRIPCION;
-
-        const description = document.createElement('div');
-        description.classList.add('card-description');
-        description.innerHTML = `
-          <p>Modelo: ${vehiculo['modelo']}</p>
-          <p>Numero de pieza : ${producto["CODIGO"]}</p>
-          <p>Precio + IVA: ${producto['PRECIO + IVA']}</p>
-          <p>Precio con IVA: ${producto['PRECIO CON IVA']}</p>
-        `;
-        const verButton = document.createElement('button');
-        verButton.textContent = 'Ver número de pieza';
-        verButton.addEventListener('click', () => mostrarNumeroDePiezaConContraseña(producto['NUMERO DE PIEZA']));
-
-        // Insertar el botón antes del párrafo que contiene el número de pieza
-        description.insertBefore(verButton, description.querySelector('p'));
-
-        cardContent.appendChild(title);
-        cardContent.appendChild(description);
-
-        card.appendChild(image);
-        card.appendChild(cardContent);
-
-        llantasContainer.appendChild(card);
+    function llenarTarjetas(vehiculos) {
+      llantasContainer.innerHTML = '';
+  
+      vehiculos.forEach(vehiculo => {
+          vehiculo.productos.forEach(producto => {
+              const card = document.createElement('div');
+              card.classList.add('card');
+  
+              const image = document.createElement('img');
+              image.src = producto.IMAGEN;
+              image.alt = producto.DESCRIPCION;
+  
+              const cardContent = document.createElement('div');
+              cardContent.classList.add('card-content');
+  
+              const precioConIVA = (producto['PRECIO CON IVA']);
+              const precioSinIVA = precioConIVA / 1.21;
+  
+              const title = document.createElement('div');
+              title.classList.add('card-title');
+              title.textContent = producto.DESCRIPCION;
+  
+              const description = document.createElement('div');
+              description.classList.add('card-description');
+              description.innerHTML = `
+                  <p>Modelo: ${vehiculo['modelo']}</p>
+                  <p>Numero de pieza: ${producto["CODIGO"]}</p>
+                  <p>Precio sin IVA (21%): $${precioSinIVA.toFixed(3)},00</p>
+                  <p>Precio con IVA: $${precioConIVA},00</p>
+              `;
+  
+              const verButton = document.createElement('button');
+              verButton.classList.add('boton-ver');
+              verButton.textContent = 'Ver número de pieza';
+              verButton.addEventListener('click', () => mostrarNumeroDePiezaConContraseña(producto['NUMERO DE PIEZA']));
+  
+              // Insertar el botón antes del párrafo que contiene el número de pieza
+              description.insertBefore(verButton, description.querySelector('p'));
+  
+              cardContent.appendChild(title);
+              cardContent.appendChild(description);
+  
+              card.appendChild(image);
+              card.appendChild(cardContent);
+  
+              llantasContainer.appendChild(card);
+          });
       });
-    });
   }
+  
 
   function mostrarNumeroDePiezaConContraseña(numeroDePieza) {
     Swal.fire({
