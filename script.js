@@ -99,9 +99,12 @@ document.addEventListener('DOMContentLoaded', () => {
               const cardContent = document.createElement('div');
               cardContent.classList.add('card-content');
   
-              const precioConIVA = (producto['PRECIO CON IVA']);
-              const precioSinIVA = precioConIVA / 1.21;
-  
+              const precioConIVA = producto['PRECIO CON IVA'];
+              const precioSinIVA = precioConIVA / 1.21; 
+              const precioConIvaMas = precioConIVA * 1.11;
+              const precioConAumento = precioSinIVA * 1.11;
+
+
               const title = document.createElement('div');
               title.classList.add('card-title');
               title.textContent = producto.DESCRIPCION;
@@ -111,8 +114,8 @@ document.addEventListener('DOMContentLoaded', () => {
               description.innerHTML = `
                   <p>Modelo: ${vehiculo['modelo']}</p>
                   <p>Numero de pieza: ${producto["CODIGO"]}</p>
-                  <p>Precio sin IVA (21%): $${precioSinIVA.toFixed(3)},00</p>
-                  <p>Precio con IVA: $${precioConIVA},00</p>
+                  <p>Precio sin IVA (21%): $${precioConAumento.toFixed(3)},00</p>
+                  <p>Precio con IVA: $${precioConIvaMas.toFixed(3)},00</p>
               `;
   
               const verButton = document.createElement('button');
