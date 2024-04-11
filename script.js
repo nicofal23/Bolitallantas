@@ -101,8 +101,13 @@ document.addEventListener('DOMContentLoaded', () => {
   
               const precioConIVA = producto['PRECIO CON IVA'];
               const precioSinIVA = precioConIVA / 1.21; 
-              const precioConIvaMas = precioConIVA * 1.11;
-              const precioConAumento = precioSinIVA * 1.11;
+              const precioConIvaMas1 = precioConIVA * 1.11;
+              const precioConIvaMas = precioConIvaMas1 * 1.0279;
+
+
+
+              const precioConAumento1 = precioSinIVA * 1.11;
+              const precioConAumento = precioConAumento1 * 1.0279;
 
 
               const title = document.createElement('div');
