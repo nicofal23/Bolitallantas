@@ -11,6 +11,10 @@
       {
         "nombreUsuario": "mab",
         "contraseña": "mab"
+      }, 
+      {
+        "nombreUsuario":"joel",
+        "contraseña":"joelbolita"
       }
     ]
   }
