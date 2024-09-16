@@ -103,11 +103,13 @@ document.addEventListener('DOMContentLoaded', () => {
               const precioSinIVA = precioConIVA / 1.21; 
               const precioConIvaMas1 = precioConIVA * 1.11;
               const precioConIvaMas = precioConIvaMas1 * 1.0279;
+              const precioConIvaMas2 = precioConIvaMas * 1.0299;
 
 
 
               const precioConAumento1 = precioSinIVA * 1.11;
-              const precioConAumento = precioConAumento1 * 1.0279;
+              const precioConAumento2 = precioConAumento1 * 1.0299;
+              const precioConAumento = precioConAumento2 * 1.0279;
 
 
               const title = document.createElement('div');
@@ -120,7 +122,7 @@ document.addEventListener('DOMContentLoaded', () => {
                   <p>Modelo: ${vehiculo['modelo']}</p>
                   <p>Numero de pieza: ${producto["CODIGO"]}</p>
                   <p>Precio sin IVA (21%): $${precioConAumento.toFixed(3)},00</p>
-                  <p>Precio con IVA: $${precioConIvaMas.toFixed(3)},00</p>
+                  <p>Precio con IVA: $${precioConIvaMas2.toFixed(3)},00</p>
               `;
   
               const verButton = document.createElement('button');
