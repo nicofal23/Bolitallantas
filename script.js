@@ -86,65 +86,69 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function llenarTarjetas(vehiculos) {
       llantasContainer.innerHTML = '';
-  
+    
       vehiculos.forEach(vehiculo => {
-          vehiculo.productos.forEach(producto => {
-              const card = document.createElement('div');
-              card.classList.add('card');
-  
-              const image = document.createElement('img');
-              image.src = producto.IMAGEN;
-              image.alt = producto.DESCRIPCION;
-  
-              const cardContent = document.createElement('div');
-              cardContent.classList.add('card-content');
-  
-              const precioConIVA = producto['PRECIO CON IVA'];
-              const precioSinIVA = precioConIVA / 1.21; 
-              const precioConIvaMas1 = precioConIVA * 1.11;
-              const precioConIvaMas = precioConIvaMas1 * 1.0279;
-              const precioConIvaMas2 = precioConIvaMas * 1.0299;
-              const precioConIvaMas3 = precioConIvaMas2 * 1.038;
-
-
-
-
-              const precioConAumento1 = precioSinIVA * 1.11;
-              const precioConAumento2 = precioConAumento1 * 1.0299;
-              const precioConAumento = precioConAumento2 * 1.0279;
-
-
-              const title = document.createElement('div');
-              title.classList.add('card-title');
-              title.textContent = producto.DESCRIPCION;
-  
-              const description = document.createElement('div');
-              description.classList.add('card-description');
-              description.innerHTML = `
-                  <p>Modelo: ${vehiculo['modelo']}</p>
-                  <p>Numero de pieza: ${producto["CODIGO"]}</p>
-                  <p>Precio sin IVA (21%): $${precioConAumento.toFixed(3)},00</p>
-                  <p>Precio con IVA: $${precioConIvaMas3.toFixed(3)},00</p>
-              `;
-  
-              const verButton = document.createElement('button');
-              verButton.classList.add('boton-ver');
-              verButton.textContent = 'Ver número de pieza';
-              verButton.addEventListener('click', () => mostrarNumeroDePiezaConContraseña(producto['NUMERO DE PIEZA']));
-  
-              // Insertar el botón antes del párrafo que contiene el número de pieza
-              description.insertBefore(verButton, description.querySelector('p'));
-  
-              cardContent.appendChild(title);
-              cardContent.appendChild(description);
-  
-              card.appendChild(image);
-              card.appendChild(cardContent);
-  
-              llantasContainer.appendChild(card);
-          });
+        vehiculo.productos.forEach(producto => {
+          const card = document.createElement('div');
+          card.classList.add('card');
+    
+          const image = document.createElement('img');
+          image.src = producto.IMAGEN;
+          image.alt = producto.DESCRIPCION;
+    
+          const cardContent = document.createElement('div');
+          cardContent.classList.add('card-content');
+    
+          // Verificar si 'PRECIO CON IVA' es un número
+          const precioConIVA = parseFloat(producto['PRECIO CON IVA']);
+          let precioConIvaMas3;
+    
+          if (!isNaN(precioConIVA)) {
+            const precioSinIVA = precioConIVA / 1.21;
+            const precioConIvaMas1 = precioConIVA * 1.11;
+            const precioConIvaMas = precioConIvaMas1 * 1.0279;
+            const precioConIvaMas2 = precioConIvaMas * 1.0299;
+            precioConIvaMas3 = precioConIvaMas2 * 1.038;
+    
+            const precioConAumento1 = precioSinIVA * 1.11;
+            const precioConAumento2 = precioConAumento1 * 1.0299;
+            const precioConAumento = precioConAumento2 * 1.0279;
+    
+            // Mostrar los precios calculados con el formato adecuado
+            cardContent.innerHTML = `
+              <h2>${producto.DESCRIPCION}</h2>
+              <p>Modelo: ${vehiculo['modelo']}</p>
+              <p>Numero de pieza: ${producto["CODIGO"]}</p>
+              <p>Precio sin IVA (21%): $${precioConAumento.toLocaleString('es-AR', { minimumFractionDigits: 3, maximumFractionDigits: 3 })},00</p>
+              <p>Precio con IVA: $${precioConIvaMas3.toLocaleString('es-AR', { minimumFractionDigits: 3, maximumFractionDigits: 3 })},00</p>
+            `;
+          } else {
+            // Si el precio no es un número, mostramos 'Consultar'
+            cardContent.innerHTML = `
+              <h2>${producto.DESCRIPCION}</h2>
+              <p>Modelo: ${vehiculo['modelo']}</p>
+              <p>Numero de pieza: ${producto["CODIGO"]}</p>
+              <p>Precio sin IVA (21%): Consultar</p>
+              <p>Precio con IVA: Consultar</p>
+            `;
+          }
+    
+          const verButton = document.createElement('button');
+          verButton.classList.add('boton-ver');
+          verButton.textContent = 'Ver número de pieza';
+          verButton.addEventListener('click', () => mostrarNumeroDePiezaConContraseña(producto['NUMERO DE PIEZA']));
+    
+          cardContent.appendChild(verButton);
+          card.appendChild(image);
+          card.appendChild(cardContent);
+          llantasContainer.appendChild(card);
+        });
       });
-  }
+    }
+    
+    
+    
+  
   
 
   function mostrarNumeroDePiezaConContraseña(numeroDePieza) {
